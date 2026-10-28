@@ -1,0 +1,4 @@
+import React, { useState } from "react";
+import { Plus, X, File, Folder, Upload } from "lucide-react";
+import "./components.css";
+export default function GooeyMenu(){const [open,setOpen]=useState(false);const [selected,setSelected]=useState("Create something");return <div className="ff-demo ffx"><div className="ffx-center"><p className="ffx-label" aria-live="polite">{selected}</p><div className={"ffx-gooey-menu "+(open?"is-open":"")}><div className="ffx-gooey-panel" aria-hidden={!open}>{[["New file",File],["New folder",Folder],["Upload",Upload]].map(([name,Icon])=><button key={name} tabIndex={open?0:-1} onClick={()=>{setSelected(name+" selected");setOpen(false)}}><Icon size={14}/>{name}</button>)}</div><button className="ffx-gooey-trigger" aria-label={open?"Close actions":"Open actions"} aria-expanded={open} onClick={()=>setOpen(!open)}>{open?<X size={19}/>:<Plus size={19}/>}</button></div></div></div>}

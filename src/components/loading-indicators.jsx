@@ -1,0 +1,3 @@
+import React, { useState } from "react";
+import "./components.css";
+export default function LoadingIndicators(){const [variant,setVariant]=useState("Ring");return <div className="ff-demo ffx"><div className="ffx-center"><div className={"ffx-loading-indicator mode-"+variant.toLowerCase()} role="status" aria-label="Loading"><span className="ffx-sr">Loading</span>{Array.from({length:variant==="Grid"?9:variant==="Dots"?3:1},(_,i)=><i key={i} style={{"--i":i}}/>)}</div><div className="ffx-segments">{["Ring","Dots","Grid","Orbit"].map(v=><button key={v} aria-pressed={variant===v} onClick={()=>setVariant(v)}>{v}</button>)}</div></div></div>}

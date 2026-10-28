@@ -1,0 +1,19 @@
+/* Motion tokens required by the public component examples. */
+@theme {
+  --animate-first: move-vertical 30s ease infinite;
+  --animate-second: move-circle 20s reverse infinite;
+  --animate-third: move-circle 40s linear infinite;
+  --animate-fourth: move-horizontal 40s ease infinite;
+  --animate-fifth: move-circle 20s ease infinite;
+  --animate-spotlight: spotlight 2s ease .75s 1 forwards;
+  --animate-aurora-bg: aurora-bg 60s linear infinite;
+  --animate-cell-ripple: cell-ripple var(--duration, 1s) ease-out;
+  --animate-move: move 5s linear infinite;
+}
+@keyframes move-vertical {0%,100%{transform:translateY(-50%)}50%{transform:translateY(50%)}}
+@keyframes move-circle {from{transform:rotate(0)}to{transform:rotate(360deg)}}
+@keyframes move-horizontal {0%,100%{transform:translate(-50%,-10%)}50%{transform:translate(50%,10%)}}
+@keyframes spotlight {from{opacity:0;transform:translate(-72%,-62%) scale(.5)}to{opacity:1;transform:translate(-50%,-40%) scale(1)}}
+@keyframes aurora-bg {from{background-position:50% 50%,50% 50%}to{background-position:350% 50%,350% 50%}}
+@keyframes cell-ripple {0%,100%{opacity:0}20%{opacity:.8}70%{opacity:.2}}
+@keyframes move {from{transform:translateX(-200px)}to{transform:translateX(200px)}}

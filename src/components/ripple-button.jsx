@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./components.css";
-export default function RippleButton({ children = "Make a little ripple" }) {
+export function RippleControl({ children, className = "", onClick, ...props }) {
   const [ripples, setRipples] = useState([]);
   const timers = useRef([]);
   useEffect(() => () => timers.current.forEach(clearTimeout), []);
@@ -18,17 +18,22 @@ export default function RippleButton({ children = "Make a little ripple" }) {
     timers.current.push(
       setTimeout(() => setRipples((a) => a.filter((p) => p.id !== id)), 700),
     );
+    onClick?.(e);
   }
   return (
-    <div className="ff-demo ff-ripple-demo">
-      <span className="ff-kicker">SMALL ACTION. BIG FEELING.</span>
-      <button className="ff-ripple-button" onClick={ripple}>
+      <button type="button" {...props} className={"ff-ripple-button " + className} onClick={ripple}>
         {children}
-        <span className="ff-button-arrow">↗</span>
         {ripples.map((r) => (
           <i className="ff-ripple" key={r.id} style={{ left: r.x, top: r.y }} />
         ))}
       </button>
+  );
+}
+export default function RippleButton({ children = "Make a little ripple" }) {
+  return (
+    <div className="ff-demo ff-ripple-demo">
+      <span className="ff-kicker">SMALL ACTION. BIG FEELING.</span>
+      <RippleControl>{children}<span className="ff-button-arrow">↗</span></RippleControl>
       <span className="ff-subtext">Go on. Give it a click.</span>
     </div>
   );

@@ -1,5 +1,7 @@
 # Reference inspection
 
+This is the initial selection review. The current four-library inventory and duplicate mapping are in `component-coverage.md`; current verification is in `final-review.md`. Source import/research scripts are now included under `scripts/`.
+
 Reviewed on 28 October 2026. The original `libary.txt` remains unchanged.
 
 All supplied component documentation links were opened/read. Public registry JSON was also retrieved for the Vengeance selections and the two free numbered Skiper selections. General Kokonut UI, Skiper UI, and Magic UI landing pages were inspected for library structure.

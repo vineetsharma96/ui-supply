@@ -1,10 +1,8 @@
 import React from "react";
 import "./components.css";
-export default function StaggerText({ text = "Make every detail count." }) {
+export function StaggerHeading({ text, as: Tag = "h2", className = "" }) {
   return (
-    <div className="ff-demo ff-stagger">
-      <span className="ff-kicker">ONE LETTER AT A TIME</span>
-      <h2 aria-label={text}>
+      <Tag className={"ff-stagger-heading " + className} aria-label={text}>
         {text.split(" ").map((word, w) => (
           <span className="ff-stagger-word" key={w}>
             {[...word].map((letter, i) => (
@@ -18,7 +16,14 @@ export default function StaggerText({ text = "Make every detail count." }) {
             ))}{" "}
           </span>
         ))}
-      </h2>
+      </Tag>
+  );
+}
+export default function StaggerText({ text = "Make every detail count." }) {
+  return (
+    <div className="ff-demo ff-stagger">
+      <span className="ff-kicker">ONE LETTER AT A TIME</span>
+      <StaggerHeading text={text} />
       <span className="ff-subtext">Good things take a little timing.</span>
     </div>
   );

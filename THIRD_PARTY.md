@@ -1,16 +1,14 @@
-# Third-party references and credits
+# Third-party credits
 
-The collection is an independently authored local catalog inspired by the user's selected UI libraries. Names and source links identify inspiration; no affiliation is implied.
+This catalog combines original local components, public registry adaptations, and independent studies of public previews. No affiliation is implied.
 
-| Reference | Credit | Usage |
-| --- | --- | --- |
-| [Vengeance UI](https://www.vengenceui.com/) | Ashutosh / Ashutoshx7 | Reference pages and public registry files informed component behavior. Local JSX and CSS were authored for this collection. |
-| [Magic UI](https://magicui.design/) | Dillion Verma and contributors | Reference documentation informed component behavior. Video Text uses `https://cdn.magicui.design/ocean-small.webm`. |
-| [Skiper UI](https://skiper-ui.com/) | gxuri | CSS Link #40, SVG Follow Scroll #19, and Horizontal Text Reveal #72. Independently authored implementations. SVG Follow Scroll's upstream reference credits comgio.ai. No Pro source was retrieved. |
-| [Apple Hello Effect](https://chanhdai.com/components/apple-hello-effect) | Chánh Đại / ncdai, crediting JaceThings / SF-Hello | Two SVG path strings adapted from the public registry item. Animation independently implemented in CSS. MIT license notice retained in `src/components/apple-hello-effect.jsx`. [Upstream license](https://github.com/ncdai/chanhdai.com/blob/main/LICENSE). |
-| [Kokonut UI](https://kokonutui.com/) | Dorian Baffier and contributors | General library reference only. |
-| [Unsplash](https://unsplash.com/) | Respective photographers | Remote landscape and portrait photos for sample carousel and team content. |
-| [Google Fonts](https://fonts.google.com/) | DM Sans and IBM Plex contributors | Catalog typography. Components use system font stacks. |
-| [Lucide](https://lucide.dev/) | Lucide contributors | Catalog icons, installed through `lucide-react`. |
+- Vengeance UI: Ashutosh / Ashutoshx7. Public registry adaptations retain MIT notices. See `licenses/vengeance.txt`.
+- Magic UI: Dillion Verma and contributors. Public registry adaptations retain MIT notices. See `licenses/magic.txt`.
+- Aceternity UI: Aceternity contributors. Public registry adaptations plus independent loader, form, expandable card, and shooting star studies. Section blocks are excluded.
+- Skiper UI: gxuri and contributors. Public free registry adaptations and independent studies based on public screenshots. No Pro source was retrieved. SVG Follow Scroll's reference credits comgio.ai.
+- Apple Hello Effect: Chanh Dai / ncdai, crediting JaceThings / SF-Hello. SVG path strings adapted from the public registry, with MIT notice retained in the component.
+- Unsplash and publishers' CDNs: remote sample images, video, and models remain hosted by their publishers.
+- Google Fonts: DM Sans and IBM Plex contributors.
+- Lucide and other installed icon/package libraries: their respective contributors and package licenses.
 
-Retrieved registry JSON under `references/` is retained locally as upstream reference material and excluded from Git, not incorporated wholesale into the local component implementation. Refer to the respective upstream repositories for their terms when reusing that reference code.
+All source URLs, aliases, and exclusions are recorded in `references/component-coverage.md`. Paid-reference studies reproduce interaction patterns with independently authored code; they are not pixel-identical or upstream API-compatible copies.

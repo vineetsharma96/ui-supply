@@ -1,0 +1,8 @@
+import React, { useEffect, useRef } from "react";
+import "./components.css";
+export default function DrawingCursor({paused=false,color="#fff",background="#ff1355"}){
+  const canvas=useRef();const last=useRef(null);const pauseRef=useRef(paused);pauseRef.current=paused;
+  useEffect(()=>{const node=canvas.current;const resize=()=>{const r=node.getBoundingClientRect();node.width=r.width*devicePixelRatio;node.height=r.height*devicePixelRatio;const ctx=node.getContext("2d");ctx.scale(devicePixelRatio,devicePixelRatio);ctx.lineWidth=3;ctx.lineCap="round"};resize();const observer=new ResizeObserver(resize);observer.observe(node);const fade=setInterval(()=>{if(pauseRef.current)return;const ctx=node.getContext("2d");ctx.save();ctx.globalCompositeOperation="destination-out";ctx.fillStyle="#00000012";ctx.fillRect(0,0,node.width,node.height);ctx.restore()},50);return()=>{observer.disconnect();clearInterval(fade)}},[]);
+  function draw(e){if(paused)return;const rect=canvas.current.getBoundingClientRect();const point={x:e.clientX-rect.left,y:e.clientY-rect.top};if(last.current){const ctx=canvas.current.getContext("2d");ctx.strokeStyle=color;ctx.beginPath();ctx.moveTo(last.current.x,last.current.y);ctx.lineTo(point.x,point.y);ctx.stroke()}last.current=point}
+  return <div className="ff-demo ffx ffx-draw" style={{background}}><canvas ref={canvas} aria-label="Move your pointer or drag to draw fading strokes" onPointerMove={draw} onPointerDown={e=>{e.currentTarget.setPointerCapture(e.pointerId);draw(e)}} onPointerLeave={()=>last.current=null} onPointerUp={()=>last.current=null}/><span>Leave a little trace.</span><button onClick={()=>{const n=canvas.current;n.getContext("2d").clearRect(0,0,n.width,n.height)}}>Clear</button></div>;
+}

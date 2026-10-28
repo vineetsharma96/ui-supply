@@ -1,0 +1,2584 @@
+{
+  "catalog": 304,
+  "summary": {
+    "vengeance": {
+      "entries": 75,
+      "pending": 0,
+      "implemented": 72,
+      "deduplicated": 3,
+      "excluded": 0
+    },
+    "magic": {
+      "entries": 77,
+      "pending": 0,
+      "implemented": 73,
+      "deduplicated": 4,
+      "excluded": 0
+    },
+    "aceternity": {
+      "entries": 114,
+      "pending": 0,
+      "implemented": 102,
+      "deduplicated": 10,
+      "excluded": 2
+    },
+    "skiper": {
+      "entries": 106,
+      "pending": 0,
+      "implemented": 55,
+      "deduplicated": 50,
+      "excluded": 1
+    }
+  },
+  "entries": [
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/my-animated-button",
+      "status": "implemented",
+      "component": "my-animated-button"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/candy-button",
+      "status": "implemented",
+      "component": "candy-button"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/pop-button",
+      "status": "implemented",
+      "component": "pop-button"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/generate-button",
+      "status": "implemented",
+      "component": "generate-button"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/radial-glow-button",
+      "status": "implemented",
+      "component": "radial-glow-button"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/social-flip-button",
+      "status": "implemented",
+      "component": "social-flip-button"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/liquid-metal",
+      "status": "implemented",
+      "component": "liquid-metal"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/creepy-button",
+      "status": "implemented",
+      "component": "creepy-button"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/corner-button",
+      "status": "implemented",
+      "component": "corner-button"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/animated-number",
+      "status": "deduplicated",
+      "component": "stats-counter"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/stats-counter",
+      "status": "implemented",
+      "component": "stats-counter"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/flip-text",
+      "status": "implemented",
+      "component": "flip-text"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/flip-fade-text",
+      "status": "implemented",
+      "component": "flip-fade-text"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/liquid-text",
+      "status": "implemented",
+      "component": "liquid-text"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/morph-text",
+      "status": "implemented",
+      "component": "morph-text"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/ascii-glitch-ripple",
+      "status": "implemented",
+      "component": "ascii-glitch-ripple"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/stagger-text",
+      "status": "implemented",
+      "component": "stagger-text"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/gooey-text-reveal",
+      "status": "implemented",
+      "component": "gooey-text-reveal"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/image-collage",
+      "status": "implemented",
+      "component": "image-collage"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/interactive-book",
+      "status": "implemented",
+      "component": "interactive-book"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/model-viewer",
+      "status": "implemented",
+      "component": "model-viewer"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/image-trail",
+      "status": "implemented",
+      "component": "image-trail"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/perspective-carousel",
+      "status": "implemented",
+      "component": "perspective-carousel"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/cylinder-carousel",
+      "status": "implemented",
+      "component": "cylinder-carousel"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/diagonal-carousel",
+      "status": "implemented",
+      "component": "diagonal-carousel"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/ripple-displacement-slider",
+      "status": "implemented",
+      "component": "ripple-displacement-slider"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/scroll-dissolve-reveal",
+      "status": "implemented",
+      "component": "scroll-dissolve-reveal"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/pixelated-image-trail",
+      "status": "implemented",
+      "component": "pixelated-image-trail"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/interactive-keyboard",
+      "status": "implemented",
+      "component": "interactive-keyboard"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/typing-keyboard",
+      "status": "implemented",
+      "component": "typing-keyboard"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/solar-system",
+      "status": "implemented",
+      "component": "solar-system"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/interactive-particles",
+      "status": "implemented",
+      "component": "interactive-particles"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/music-player",
+      "status": "implemented",
+      "component": "music-player"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/verse-cards",
+      "status": "implemented",
+      "component": "verse-cards"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/circular-gallery",
+      "status": "implemented",
+      "component": "circular-gallery"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/books-showcase",
+      "status": "implemented",
+      "component": "books-showcase"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/agent-bento-grid",
+      "status": "implemented",
+      "component": "agent-bento-grid"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/expandable-bento-grid",
+      "status": "implemented",
+      "component": "expandable-bento-grid"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/staggered-grid",
+      "status": "implemented",
+      "component": "staggered-grid"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/image-scatter",
+      "status": "implemented",
+      "component": "image-scatter"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/glow-border-card",
+      "status": "implemented",
+      "component": "glow-border-card"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/testimonials-card",
+      "status": "implemented",
+      "component": "testimonials-card"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/highlight-grid",
+      "status": "implemented",
+      "component": "highlight-grid"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/research-bento-grid",
+      "status": "implemented",
+      "component": "research-bento-grid"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/team-reveal-grid",
+      "status": "implemented",
+      "component": "team-reveal-grid"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/why-us-bento",
+      "status": "implemented",
+      "component": "why-us-bento"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/cursor-card",
+      "status": "implemented",
+      "component": "cursor-card"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/elastic-stack",
+      "status": "implemented",
+      "component": "elastic-stack"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/logo-slider",
+      "status": "deduplicated",
+      "component": "marquee"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/stacked-logos",
+      "status": "implemented",
+      "component": "stacked-logos"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/masked-avatars",
+      "status": "implemented",
+      "component": "masked-avatars"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/image-reveal-list",
+      "status": "implemented",
+      "component": "image-reveal-list"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/faq-accordion",
+      "status": "implemented",
+      "component": "faq-accordion"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/shared-tooltip-avatars",
+      "status": "implemented",
+      "component": "shared-tooltip-avatars"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/magnetic-spotlight-marquee",
+      "status": "implemented",
+      "component": "magnetic-spotlight-marquee"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/kinetic-text-loader",
+      "status": "implemented",
+      "component": "kinetic-text-loader"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/glass-dock",
+      "status": "implemented",
+      "component": "glass-dock"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/spotlight-navbar",
+      "status": "implemented",
+      "component": "spotlight-navbar"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/notch-navbar",
+      "status": "implemented",
+      "component": "notch-navbar"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/mega-menu-navbar",
+      "status": "implemented",
+      "component": "mega-menu-navbar"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/gooey-search",
+      "status": "implemented",
+      "component": "gooey-search"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/animated-footer",
+      "status": "implemented",
+      "component": "animated-footer"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/awwwards-nav",
+      "status": "implemented",
+      "component": "awwwards-nav"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/search-modal",
+      "status": "implemented",
+      "component": "search-modal"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/line-hover-link",
+      "status": "deduplicated",
+      "component": "css-link"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/folder-preview",
+      "status": "implemented",
+      "component": "folder-preview"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/animated-tooltip",
+      "status": "implemented",
+      "component": "animated-tooltip"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/wave-grid-background",
+      "status": "implemented",
+      "component": "wave-grid-background"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/aurora-hero",
+      "status": "implemented",
+      "component": "aurora-hero"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/fluid-morph-bg",
+      "status": "implemented",
+      "component": "fluid-morph-bg"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/twisting-ribbon",
+      "status": "implemented",
+      "component": "twisting-ribbon"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/animated-rays",
+      "status": "implemented",
+      "component": "animated-rays"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/perspective-grid",
+      "status": "implemented",
+      "component": "perspective-grid"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/light-lines",
+      "status": "implemented",
+      "component": "light-lines"
+    },
+    {
+      "source": "vengeance",
+      "url": "https://www.vengenceui.com/components/liquid-ocean",
+      "status": "implemented",
+      "component": "liquid-ocean"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/webcam-pixel-grid",
+      "status": "implemented",
+      "component": "webcam-pixel-grid"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/images-badge",
+      "status": "implemented",
+      "component": "images-badge"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/parallax-hero-images",
+      "status": "implemented",
+      "component": "parallax-hero-images"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/scales",
+      "status": "implemented",
+      "component": "scales"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/dotted-glow-background",
+      "status": "implemented",
+      "component": "dotted-glow-background"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/background-ripple-effect",
+      "status": "implemented",
+      "component": "background-ripple-effect"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/sparkles",
+      "status": "implemented",
+      "component": "sparkles"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/background-gradient",
+      "status": "implemented",
+      "component": "background-gradient"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/background-gradient-animation",
+      "status": "implemented",
+      "component": "background-gradient-animation"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/wavy-background",
+      "status": "implemented",
+      "component": "wavy-background"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/background-boxes",
+      "status": "implemented",
+      "component": "background-boxes"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/background-beams",
+      "status": "implemented",
+      "component": "background-beams"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/background-beams-with-collision",
+      "status": "implemented",
+      "component": "background-beams-with-collision"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/background-lines",
+      "status": "implemented",
+      "component": "background-lines"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/aurora-background",
+      "status": "implemented",
+      "component": "aurora-background"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/meteors",
+      "status": "deduplicated",
+      "component": "meteors"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/glowing-stars-effect",
+      "status": "implemented",
+      "component": "glowing-stars-effect"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/shooting-stars-and-stars-background",
+      "status": "independent",
+      "component": "shooting-stars"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/vortex",
+      "status": "implemented",
+      "component": "vortex"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/background-cubes-grid",
+      "status": "implemented",
+      "component": "background-cubes-grid"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/liquid-glass",
+      "status": "implemented",
+      "component": "liquid-glass"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/cloud-shader",
+      "status": "implemented",
+      "component": "cloud-shader"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/chromatic-image",
+      "status": "implemented",
+      "component": "chromatic-image"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/spotlight",
+      "status": "implemented",
+      "component": "spotlight"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/spotlight-new",
+      "status": "implemented",
+      "component": "spotlight-new"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/canvas-reveal-effect",
+      "status": "implemented",
+      "component": "canvas-reveal-effect"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/svg-mask-effect",
+      "status": "implemented",
+      "component": "svg-mask-effect"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/tracing-beam",
+      "status": "implemented",
+      "component": "tracing-beam"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/lamp-effect",
+      "status": "implemented",
+      "component": "lamp-effect"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/grid-and-dot-backgrounds",
+      "status": "implemented",
+      "component": "grid-and-dot-backgrounds"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/glowing-effect",
+      "status": "implemented",
+      "component": "glowing-effect"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/google-gemini-effect",
+      "status": "implemented",
+      "component": "google-gemini-effect"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/keyboard",
+      "status": "implemented",
+      "component": "keyboard"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/terminal",
+      "status": "deduplicated",
+      "component": "terminal"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/tooltip-card",
+      "status": "implemented",
+      "component": "tooltip-card"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/ascii-art",
+      "status": "implemented",
+      "component": "ascii-art"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/pixelated-canvas",
+      "status": "implemented",
+      "component": "pixelated-canvas"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/3d-card-effect",
+      "status": "implemented",
+      "component": "3d-card-effect"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/evervault-card",
+      "status": "implemented",
+      "component": "evervault-card"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/card-stack",
+      "status": "implemented",
+      "component": "card-stack"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/card-hover-effect",
+      "status": "implemented",
+      "component": "card-hover-effect"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/wobble-card",
+      "status": "implemented",
+      "component": "wobble-card"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/expandable-card",
+      "status": "independent",
+      "component": "expandable-card"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/card-spotlight",
+      "status": "implemented",
+      "component": "card-spotlight"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/focus-cards",
+      "status": "implemented",
+      "component": "focus-cards"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/infinite-moving-cards",
+      "status": "deduplicated",
+      "component": "marquee"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/draggable-card",
+      "status": "implemented",
+      "component": "draggable-card"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/comet-card",
+      "status": "implemented",
+      "component": "comet-card"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/glare-card",
+      "status": "implemented",
+      "component": "glare-card"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/direction-aware-hover",
+      "status": "implemented",
+      "component": "direction-aware-hover"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/parallax-scroll",
+      "status": "implemented",
+      "component": "parallax-scroll"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/sticky-scroll-reveal",
+      "status": "implemented",
+      "component": "sticky-scroll-reveal"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/macbook-scroll",
+      "status": "implemented",
+      "component": "macbook-scroll"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/container-scroll-animation",
+      "status": "implemented",
+      "component": "container-scroll-animation"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/hero-parallax",
+      "status": "implemented",
+      "component": "hero-parallax"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/canvas-text",
+      "status": "implemented",
+      "component": "canvas-text"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/encrypted-text",
+      "status": "implemented",
+      "component": "encrypted-text"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/layout-text-flip",
+      "status": "implemented",
+      "component": "layout-text-flip"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/colourful-text",
+      "status": "implemented",
+      "component": "colourful-text"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/squiggly-text",
+      "status": "implemented",
+      "component": "squiggly-text"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/text-generate-effect",
+      "status": "deduplicated",
+      "component": "stagger-text"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/typewriter-effect",
+      "status": "deduplicated",
+      "component": "typing-animation"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/flip-words",
+      "status": "deduplicated",
+      "component": "flip-fade-text"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/text-hover-effect",
+      "status": "implemented",
+      "component": "text-hover-effect"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/container-text-flip",
+      "status": "implemented",
+      "component": "container-text-flip"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/hero-highlight",
+      "status": "implemented",
+      "component": "hero-highlight"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/text-reveal-card",
+      "status": "implemented",
+      "component": "text-reveal-card"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/text-flipping-board",
+      "status": "implemented",
+      "component": "text-flipping-board"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/magnetic-button",
+      "status": "implemented",
+      "component": "magnetic-button"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/noise-background",
+      "status": "implemented",
+      "component": "noise-background"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/tailwindcss-buttons",
+      "status": "implemented",
+      "component": "tailwindcss-buttons"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/hover-border-gradient",
+      "status": "implemented",
+      "component": "hover-border-gradient"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/moving-border",
+      "status": "implemented",
+      "component": "moving-border"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/stateful-button",
+      "status": "implemented",
+      "component": "stateful-button"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/image-generation-loader",
+      "status": "implemented",
+      "component": "image-generation-loader"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/multi-step-loader",
+      "status": "implemented",
+      "component": "multi-step-loader"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/loader",
+      "status": "independent",
+      "component": "loading-indicators"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/notch",
+      "status": "implemented",
+      "component": "notch"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/floating-navbar",
+      "status": "implemented",
+      "component": "floating-navbar"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/navbar-menu",
+      "status": "implemented",
+      "component": "navbar-menu"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/sidebar",
+      "status": "implemented",
+      "component": "sidebar"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/floating-dock",
+      "status": "implemented",
+      "component": "floating-dock"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/tabs",
+      "status": "implemented",
+      "component": "tabs"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/resizable-navbar",
+      "status": "implemented",
+      "component": "resizable-navbar"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/sticky-banner",
+      "status": "implemented",
+      "component": "sticky-banner"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/signup-form",
+      "status": "independent",
+      "component": "signup-form"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/placeholders-and-vanish-input",
+      "status": "implemented",
+      "component": "placeholders-and-vanish-input"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/file-upload",
+      "status": "implemented",
+      "component": "file-upload"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/gooey-input",
+      "status": "implemented",
+      "component": "gooey-input"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/dither-shader",
+      "status": "implemented",
+      "component": "dither-shader"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/animated-modal",
+      "status": "implemented",
+      "component": "animated-modal"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/animated-tooltip",
+      "status": "deduplicated",
+      "component": "animated-tooltip"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/link-preview",
+      "status": "implemented",
+      "component": "link-preview"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/images-slider",
+      "status": "implemented",
+      "component": "images-slider"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/carousel",
+      "status": "implemented",
+      "component": "carousel"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/apple-cards-carousel",
+      "status": "implemented",
+      "component": "apple-cards-carousel"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/animated-testimonials",
+      "status": "implemented",
+      "component": "animated-testimonials"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/layout-grid",
+      "status": "implemented",
+      "component": "layout-grid"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/bento-grid",
+      "status": "deduplicated",
+      "component": "bento-grid"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/container-cover",
+      "status": "implemented",
+      "component": "container-cover"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/github-globe",
+      "status": "deduplicated",
+      "component": "globe"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/world-map",
+      "status": "implemented",
+      "component": "world-map"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/timeline",
+      "status": "implemented",
+      "component": "timeline"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/compare",
+      "status": "implemented",
+      "component": "compare"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/code-block",
+      "status": "implemented",
+      "component": "code-block"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/following-pointer",
+      "status": "implemented",
+      "component": "following-pointer"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/pointer-highlight",
+      "status": "implemented",
+      "component": "pointer-highlight"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/lens",
+      "status": "deduplicated",
+      "component": "lens"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/3d-globe",
+      "status": "implemented",
+      "component": "3d-globe"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/3d-pin",
+      "status": "implemented",
+      "component": "3d-pin"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/3d-marquee",
+      "status": "implemented",
+      "component": "3d-marquee"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/feature-sections-free",
+      "status": "excluded-section-block",
+      "reason": "Section blocks are outside the requested individual-component scope"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/cards-free",
+      "status": "implemented",
+      "component": "cards-free"
+    },
+    {
+      "source": "aceternity",
+      "url": "https://ui.aceternity.com/components/hero-sections-free",
+      "status": "excluded-section-block",
+      "reason": "Section blocks are outside the requested individual-component scope"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/marquee",
+      "status": "implemented",
+      "component": "marquee"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/terminal",
+      "status": "implemented",
+      "component": "terminal"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/hero-video-dialog",
+      "status": "implemented",
+      "component": "hero-video-dialog"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/bento-grid",
+      "status": "implemented",
+      "component": "bento-grid"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/animated-list",
+      "status": "implemented",
+      "component": "animated-list"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/dock",
+      "status": "implemented",
+      "component": "dock"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/globe",
+      "status": "implemented",
+      "component": "globe"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/tweet-card",
+      "status": "implemented",
+      "component": "tweet-card"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/orbiting-circles",
+      "status": "implemented",
+      "component": "orbiting-circles"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/avatar-circles",
+      "status": "implemented",
+      "component": "avatar-circles"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/icon-cloud",
+      "status": "implemented",
+      "component": "icon-cloud"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/lens",
+      "status": "implemented",
+      "component": "lens"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/pointer",
+      "status": "implemented",
+      "component": "pointer"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/smooth-cursor",
+      "status": "implemented",
+      "component": "smooth-cursor"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/progressive-blur",
+      "status": "implemented",
+      "component": "progressive-blur"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/dotted-map",
+      "status": "implemented",
+      "component": "dotted-map"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/animated-beam",
+      "status": "implemented",
+      "component": "animated-beam"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/border-beam",
+      "status": "implemented",
+      "component": "border-beam"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/shine-border",
+      "status": "implemented",
+      "component": "shine-border"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/magic-card",
+      "status": "implemented",
+      "component": "magic-card"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/glare-hover",
+      "status": "implemented",
+      "component": "glare-hover"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/meteors",
+      "status": "implemented",
+      "component": "meteors"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/confetti",
+      "status": "implemented",
+      "component": "confetti"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/particles",
+      "status": "implemented",
+      "component": "particles"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/animated-theme-toggler",
+      "status": "implemented",
+      "component": "animated-theme-toggler"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/blur-fade",
+      "status": "implemented",
+      "component": "blur-fade"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/text-animate",
+      "status": "deduplicated",
+      "component": "stagger-text"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/typing-animation",
+      "status": "implemented",
+      "component": "typing-animation"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/line-shadow-text",
+      "status": "implemented",
+      "component": "line-shadow-text"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/aurora-text",
+      "status": "implemented",
+      "component": "aurora-text"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/video-text",
+      "status": "implemented",
+      "component": "video-text"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/number-ticker",
+      "status": "deduplicated",
+      "component": "stats-counter"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/animated-shiny-text",
+      "status": "implemented",
+      "component": "animated-shiny-text"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/animated-gradient-text",
+      "status": "implemented",
+      "component": "animated-gradient-text"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/text-reveal",
+      "status": "deduplicated",
+      "component": "horizontal-text-reveal"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/dia-text-reveal",
+      "status": "implemented",
+      "component": "dia-text-reveal"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/hyper-text",
+      "status": "implemented",
+      "component": "hyper-text"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/word-rotate",
+      "status": "deduplicated",
+      "component": "flip-fade-text"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/scroll-based-velocity",
+      "status": "implemented",
+      "component": "scroll-based-velocity"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/sparkles-text",
+      "status": "implemented",
+      "component": "sparkles-text"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/morphing-text",
+      "status": "implemented",
+      "component": "morphing-text"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/spinning-text",
+      "status": "implemented",
+      "component": "spinning-text"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/highlighter",
+      "status": "implemented",
+      "component": "highlighter"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/text-3d-flip",
+      "status": "implemented",
+      "component": "text-3d-flip"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/safari",
+      "status": "implemented",
+      "component": "safari"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/iphone",
+      "status": "implemented",
+      "component": "iphone"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/android",
+      "status": "implemented",
+      "component": "android"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/rainbow-button",
+      "status": "implemented",
+      "component": "rainbow-button"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/shimmer-button",
+      "status": "implemented",
+      "component": "shimmer-button"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/ripple-button",
+      "status": "implemented",
+      "component": "ripple-button"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/flickering-grid",
+      "status": "implemented",
+      "component": "flickering-grid"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/animated-grid-pattern",
+      "status": "implemented",
+      "component": "animated-grid-pattern"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/retro-grid",
+      "status": "implemented",
+      "component": "retro-grid"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/ripple",
+      "status": "implemented",
+      "component": "ripple"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/dot-pattern",
+      "status": "implemented",
+      "component": "dot-pattern"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/grid-pattern",
+      "status": "implemented",
+      "component": "grid-pattern"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/hexagon-pattern",
+      "status": "implemented",
+      "component": "hexagon-pattern"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/striped-pattern",
+      "status": "implemented",
+      "component": "striped-pattern"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/interactive-grid-pattern",
+      "status": "implemented",
+      "component": "interactive-grid-pattern"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/light-rays",
+      "status": "implemented",
+      "component": "light-rays"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/noise-texture",
+      "status": "implemented",
+      "component": "noise-texture"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/floating-3d-particles",
+      "status": "implemented",
+      "component": "floating-3d-particles"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/shiny-button",
+      "status": "implemented",
+      "component": "shiny-button"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/file-tree",
+      "status": "implemented",
+      "component": "file-tree"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/code-comparison",
+      "status": "implemented",
+      "component": "code-comparison"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/scroll-progress",
+      "status": "independent",
+      "component": "scroll-progress"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/neon-gradient-card",
+      "status": "implemented",
+      "component": "neon-gradient-card"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/comic-text",
+      "status": "implemented",
+      "component": "comic-text"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/kinetic-text",
+      "status": "implemented",
+      "component": "kinetic-text"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/cool-mode",
+      "status": "implemented",
+      "component": "cool-mode"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/pixel-image",
+      "status": "implemented",
+      "component": "pixel-image"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/pulsating-button",
+      "status": "implemented",
+      "component": "pulsating-button"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/warp-background",
+      "status": "implemented",
+      "component": "warp-background"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/interactive-hover-button",
+      "status": "implemented",
+      "component": "interactive-hover-button"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/animated-circular-progress-bar",
+      "status": "implemented",
+      "component": "animated-circular-progress-bar"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/backlight",
+      "status": "implemented",
+      "component": "backlight"
+    },
+    {
+      "source": "magic",
+      "url": "https://magicui.design/docs/components/glyph-matrix",
+      "status": "implemented",
+      "component": "glyph-matrix"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper105",
+      "name": "Auto Scale input",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "amount-input",
+      "screenshot": "references/skiper-previews/skiper105.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper106",
+      "name": "Smooth caret input",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper106",
+      "screenshot": "references/skiper-previews/skiper106.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper107",
+      "name": "Knockout bracket",
+      "access": "Premium",
+      "status": "independent",
+      "component": "knockout-bracket",
+      "screenshot": "references/skiper-previews/skiper107.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper1",
+      "name": "Anime js scrollbar",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "scroll-progress",
+      "screenshot": "references/skiper-previews/skiper1.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper2",
+      "name": "Dynamic island",
+      "access": "Premium",
+      "status": "independent",
+      "component": "dynamic-island",
+      "screenshot": "references/skiper-previews/skiper2.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper5",
+      "name": "Things drag and scroll",
+      "access": "Premium",
+      "status": "independent",
+      "component": "infinite-canvas",
+      "screenshot": "references/skiper-previews/skiper5.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper24",
+      "name": "Tik tik color list",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "image-reveal-list",
+      "screenshot": "references/skiper-previews/skiper24.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper29",
+      "name": "Siena parallax",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "parallax-scroll",
+      "screenshot": "references/skiper-previews/skiper29.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper73",
+      "name": "Infinite canvas",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "infinite-canvas",
+      "screenshot": "references/skiper-previews/skiper73.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper76",
+      "name": "Apple Feature Block",
+      "access": "Premium",
+      "status": "independent",
+      "component": "product-feature-tour",
+      "screenshot": "references/skiper-previews/skiper76.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper80",
+      "name": "Projects Showcase",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "image-reveal-list",
+      "screenshot": "references/skiper-previews/skiper80.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper96",
+      "name": "Expandable tabs navigation",
+      "access": "Premium",
+      "status": "independent",
+      "component": "expandable-tabs",
+      "screenshot": "references/skiper-previews/skiper96.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper101",
+      "name": "Custom tooltip",
+      "access": "Free",
+      "status": "deduplicated",
+      "component": "animated-tooltip",
+      "screenshot": "references/skiper-previews/skiper101.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper3",
+      "name": "Apple play button",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper3",
+      "screenshot": "references/skiper-previews/skiper3.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper4",
+      "name": "Theme toggle buttons",
+      "access": "Free",
+      "status": "deduplicated",
+      "component": "animated-theme-toggler",
+      "screenshot": "references/skiper-previews/skiper4.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper25",
+      "name": "Music toggle btn",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper25",
+      "screenshot": "references/skiper-previews/skiper25.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper26",
+      "name": "Theme toggle btn",
+      "access": "Free",
+      "status": "deduplicated",
+      "component": "animated-theme-toggler",
+      "screenshot": "references/skiper-previews/skiper26.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper27",
+      "name": "Rolling text",
+      "access": "Premium",
+      "status": "independent",
+      "component": "scroll-text-studies",
+      "screenshot": "references/skiper-previews/skiper27.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper37",
+      "name": "Animated number",
+      "access": "Free",
+      "status": "deduplicated",
+      "component": "stats-counter",
+      "screenshot": "references/skiper-previews/skiper37.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper40",
+      "name": "CssLink",
+      "access": "Free",
+      "status": "implemented",
+      "component": "css-link",
+      "screenshot": "references/skiper-previews/skiper40.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper42",
+      "name": "Animated icons 001",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "skiper99",
+      "screenshot": "references/skiper-previews/skiper42.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper58",
+      "name": "Text roll navigation",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper58",
+      "screenshot": "references/skiper-previews/skiper58.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper61",
+      "name": "Mouse follow animations",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper61",
+      "screenshot": "references/skiper-previews/skiper61.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper63",
+      "name": "Apple squicircle effect",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper63",
+      "screenshot": "references/skiper-previews/skiper63.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper64",
+      "name": "Gooey Effect",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper64",
+      "screenshot": "references/skiper-previews/skiper64.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper66",
+      "name": "SVG clip path mask",
+      "access": "Free",
+      "status": "deduplicated",
+      "component": "svg-mask-effect",
+      "screenshot": "references/skiper-previews/skiper66.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper68",
+      "name": "Animated number input",
+      "access": "Premium",
+      "status": "independent",
+      "component": "amount-input",
+      "screenshot": "references/skiper-previews/skiper68.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper69",
+      "name": "Skiper Number flow",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "stats-counter",
+      "screenshot": "references/skiper-previews/skiper69.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper70",
+      "name": "Text reveal box",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "scroll-text-studies",
+      "screenshot": "references/skiper-previews/skiper70.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper72",
+      "name": "Horizontal Text reveal",
+      "access": "Premium",
+      "status": "implemented",
+      "component": "horizontal-text-reveal",
+      "screenshot": "references/skiper-previews/skiper72.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper86",
+      "name": "Apple Ai gradient",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "backlight",
+      "screenshot": "references/skiper-previews/skiper86.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper87",
+      "name": "Scroll with fade effect",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper87",
+      "screenshot": "references/skiper-previews/skiper87.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper99",
+      "name": "Animated icons 002",
+      "access": "Free",
+      "status": "independent",
+      "component": "skiper99",
+      "screenshot": "references/skiper-previews/skiper99.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper103",
+      "name": "Bouncy accordion",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "faq-accordion",
+      "screenshot": "references/skiper-previews/skiper103.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper6",
+      "name": "Hover members",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "team-reveal-grid",
+      "screenshot": "references/skiper-previews/skiper6.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper18",
+      "name": "Image cursor trail",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "image-trail",
+      "screenshot": "references/skiper-previews/skiper18.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper35",
+      "name": "Hover expand",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "skiper52",
+      "screenshot": "references/skiper-previews/skiper35.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper52",
+      "name": "ExpandOnHover",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper52",
+      "screenshot": "references/skiper-previews/skiper52.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper53",
+      "name": "ExpandOnHover vertical",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper53",
+      "screenshot": "references/skiper-previews/skiper53.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper59",
+      "name": "Drawing cursor effect",
+      "access": "Premium",
+      "status": "independent",
+      "component": "drawing-cursor",
+      "screenshot": "references/skiper-previews/skiper59.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper90",
+      "name": "Gradient hover cards",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "glare-hover",
+      "screenshot": "references/skiper-previews/skiper90.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper7",
+      "name": "Nike preloader",
+      "access": "Premium",
+      "status": "independent",
+      "component": "preloader-studies",
+      "screenshot": "references/skiper-previews/skiper7.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper8",
+      "name": "Words preloader",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "preloader-studies",
+      "screenshot": "references/skiper-previews/skiper8.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper9",
+      "name": "Stairs preloader",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "preloader-studies",
+      "screenshot": "references/skiper-previews/skiper9.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper10",
+      "name": "Double stairs preloader",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "preloader-studies",
+      "screenshot": "references/skiper-previews/skiper10.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper11",
+      "name": "Pixel preloader",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "preloader-studies",
+      "screenshot": "references/skiper-previews/skiper11.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper15",
+      "name": "Box loading preloader",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "preloader-studies",
+      "screenshot": "references/skiper-previews/skiper15.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper12",
+      "name": "Vercel Liquid simulation",
+      "access": "Premium",
+      "status": "independent",
+      "component": "liquid-mark",
+      "screenshot": "references/skiper-previews/skiper12.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper14",
+      "name": "Ascii Simulation",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "ascii-art",
+      "screenshot": "references/skiper-previews/skiper14.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper36",
+      "name": "Interactive3d Hero",
+      "access": "Premium",
+      "status": "independent",
+      "component": "interactive-cube-scene",
+      "screenshot": "references/skiper-previews/skiper36.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper39",
+      "name": "Canvas crowd",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper39",
+      "screenshot": "references/skiper-previews/skiper39.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper13",
+      "name": "Nike menu",
+      "access": "Premium",
+      "status": "independent",
+      "component": "curtain-menu",
+      "screenshot": "references/skiper-previews/skiper13.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper38",
+      "name": "Apple Navbar V001",
+      "access": "Premium",
+      "status": "independent",
+      "component": "adaptive-navigation",
+      "screenshot": "references/skiper-previews/skiper38.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper57",
+      "name": "Vercel navigation bar",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "adaptive-navigation",
+      "screenshot": "references/skiper-previews/skiper57.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper75",
+      "name": "Apple Navbar V002",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "adaptive-navigation",
+      "screenshot": "references/skiper-previews/skiper75.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper16",
+      "name": "Card stack scroll",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper16",
+      "screenshot": "references/skiper-previews/skiper16.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper17",
+      "name": "Card stack with gsap and rotate",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper17",
+      "screenshot": "references/skiper-previews/skiper17.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper19",
+      "name": "Svg follow scroll",
+      "access": "Free",
+      "status": "implemented",
+      "component": "svg-follow-scroll",
+      "screenshot": "references/skiper-previews/skiper19.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper28",
+      "name": "3D perspective text",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper28",
+      "screenshot": "references/skiper-previews/skiper28.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper30",
+      "name": "Oliver parallax",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper30",
+      "screenshot": "references/skiper-previews/skiper30.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper31",
+      "name": "Text Scroll animation",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper31",
+      "screenshot": "references/skiper-previews/skiper31.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper32",
+      "name": "Scroll images reveal 001",
+      "access": "Premium",
+      "status": "independent",
+      "component": "scroll-image-studies",
+      "screenshot": "references/skiper-previews/skiper32.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper33",
+      "name": "Scroll images reveal 002",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "scroll-image-studies",
+      "screenshot": "references/skiper-previews/skiper33.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper34",
+      "name": "Scroll images reveal 003",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper34",
+      "screenshot": "references/skiper-previews/skiper34.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper55",
+      "name": "Parallax Image",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "parallax-scroll",
+      "screenshot": "references/skiper-previews/skiper55.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper60",
+      "name": "Side Scroll Navigation",
+      "access": "Premium",
+      "status": "independent",
+      "component": "scroll-spy-navigation",
+      "screenshot": "references/skiper-previews/skiper60.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper71",
+      "name": "Image reveal",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "scroll-image-studies",
+      "screenshot": "references/skiper-previews/skiper71.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper74",
+      "name": "Timeline calendar",
+      "access": "Premium",
+      "status": "independent",
+      "component": "timeline-calendar",
+      "screenshot": "references/skiper-previews/skiper74.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper79",
+      "name": "Team showcase scroll",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "scroll-image-studies",
+      "screenshot": "references/skiper-previews/skiper79.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper88",
+      "name": "3D Rolling Text on scroll",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "scroll-text-studies",
+      "screenshot": "references/skiper-previews/skiper88.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper89",
+      "name": "Scroll progress 001",
+      "access": "Free",
+      "status": "deduplicated",
+      "component": "scroll-progress",
+      "screenshot": "references/skiper-previews/skiper89.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper94",
+      "name": "Scroll progress 002",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "scroll-progress",
+      "screenshot": "references/skiper-previews/skiper94.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper95",
+      "name": "Scroll progress 003",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "scroll-progress",
+      "screenshot": "references/skiper-previews/skiper95.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper104",
+      "name": "Scroll reveal grid cards",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "scroll-image-studies",
+      "screenshot": "references/skiper-previews/skiper104.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper20",
+      "name": "UniSwap Country Dialog",
+      "access": "Premium",
+      "status": "independent",
+      "component": "country-dialog",
+      "screenshot": "references/skiper-previews/skiper20.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper21",
+      "name": "Family wallet",
+      "access": "Premium",
+      "status": "independent",
+      "component": "wallet-sign-in",
+      "screenshot": "references/skiper-previews/skiper21.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper22",
+      "name": "Aave token swap",
+      "access": "Premium",
+      "status": "independent",
+      "component": "token-swap",
+      "screenshot": "references/skiper-previews/skiper22.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper23",
+      "name": "Minimal Card Expand",
+      "access": "Premium",
+      "status": "independent",
+      "component": "expanding-tiles",
+      "screenshot": "references/skiper-previews/skiper23.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper45",
+      "name": "Family Receive button",
+      "access": "Premium",
+      "status": "independent",
+      "component": "receive-button",
+      "screenshot": "references/skiper-previews/skiper45.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper41",
+      "name": "Progressive Blur",
+      "access": "Free",
+      "status": "deduplicated",
+      "component": "progressive-blur",
+      "screenshot": "references/skiper-previews/skiper41.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper44",
+      "name": "Vercel scroll with blur",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "skiper87",
+      "screenshot": "references/skiper-previews/skiper44.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper56",
+      "name": "Devouring details sign in",
+      "access": "Premium",
+      "status": "independent",
+      "component": "inline-sign-in",
+      "screenshot": "references/skiper-previews/skiper56.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper43",
+      "name": "Vercel Tooltip",
+      "access": "Premium",
+      "status": "independent",
+      "component": "tooltip-toolbar",
+      "screenshot": "references/skiper-previews/skiper43.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper46",
+      "name": "Nextjs gooey menu",
+      "access": "Premium",
+      "status": "independent",
+      "component": "gooey-menu",
+      "screenshot": "references/skiper-previews/skiper46.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper92",
+      "name": "Vercel Command Search",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "search-modal",
+      "screenshot": "references/skiper-previews/skiper92.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper98",
+      "name": "Vertical tooltip menu",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "tooltip-toolbar",
+      "screenshot": "references/skiper-previews/skiper98.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper100",
+      "name": "Draggable snap button",
+      "access": "Premium",
+      "status": "independent",
+      "component": "draggable-snap-button",
+      "screenshot": "references/skiper-previews/skiper100.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper47",
+      "name": "Perspective carousel",
+      "access": "Free",
+      "status": "deduplicated",
+      "component": "perspective-carousel",
+      "screenshot": "references/skiper-previews/skiper47.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper48",
+      "name": "Card swipe carousel",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper48",
+      "screenshot": "references/skiper-previews/skiper48.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper49",
+      "name": "Inverted perspective carousel",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper49",
+      "screenshot": "references/skiper-previews/skiper49.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper50",
+      "name": "Creative carousel 001",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper50",
+      "screenshot": "references/skiper-previews/skiper50.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper51",
+      "name": "Creative carousel 002",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper51",
+      "screenshot": "references/skiper-previews/skiper51.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper54",
+      "name": "Shadcn clipPath Carousal",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper54",
+      "screenshot": "references/skiper-previews/skiper54.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper77",
+      "name": "Apple carousel",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "product-feature-tour",
+      "screenshot": "references/skiper-previews/skiper77.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper78",
+      "name": "Dia Browser's Carousal",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "skiper51",
+      "screenshot": "references/skiper-previews/skiper78.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper62",
+      "name": "Loop animation hook",
+      "access": "Free",
+      "status": "excluded-non-ui",
+      "screenshot": "references/skiper-previews/skiper62.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper65",
+      "name": "Breakpoint indicator",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper65",
+      "screenshot": "references/skiper-previews/skiper65.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper102",
+      "name": "Debug Pannel",
+      "access": "Free",
+      "status": "implemented",
+      "component": "skiper102",
+      "screenshot": "references/skiper-previews/skiper102.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper67",
+      "name": "Video player 001",
+      "access": "Free",
+      "status": "independent",
+      "component": "video-player",
+      "screenshot": "references/skiper-previews/skiper67.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper91",
+      "name": "video player 002",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "video-player",
+      "screenshot": "references/skiper-previews/skiper91.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper97",
+      "name": "video player 003",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "video-player",
+      "screenshot": "references/skiper-previews/skiper97.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper81",
+      "name": "AI Input 001",
+      "access": "Premium",
+      "status": "independent",
+      "component": "prompt-input",
+      "screenshot": "references/skiper-previews/skiper81.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper82",
+      "name": "AI Input 002",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "prompt-input",
+      "screenshot": "references/skiper-previews/skiper82.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper83",
+      "name": "AI Input 003",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "prompt-input",
+      "screenshot": "references/skiper-previews/skiper83.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper84",
+      "name": "AI Input 004",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "prompt-input",
+      "screenshot": "references/skiper-previews/skiper84.jpg"
+    },
+    {
+      "source": "skiper",
+      "url": "https://skiper-ui.com/v1/skiper85",
+      "name": "AI Input 005",
+      "access": "Premium",
+      "status": "deduplicated",
+      "component": "prompt-input",
+      "screenshot": "references/skiper-previews/skiper85.jpg"
+    }
+  ]
+}

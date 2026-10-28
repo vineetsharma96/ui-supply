@@ -1,0 +1,11 @@
+Aceternity UI attribution
+
+Public free component registry examples are credited to Manu Arora / Aceternity UI.
+The source URLs are retained at the top of adapted component files.
+
+Public component catalog: https://ui.aceternity.com/components
+Publisher licensing page: https://ui.aceternity.com/licence
+
+No Aceternity premium source, full website template, or paid section source was retrieved.
+Independent implementations are explicitly marked in the catalog and coverage report.
+These notices do not replace the publisher's terms or grant additional rights.

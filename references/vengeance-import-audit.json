@@ -1,0 +1,1110 @@
+{
+  "added": [
+    {
+      "id": "my-animated-button",
+      "name": "My Animated Button",
+      "category": "Interactive",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/my-animated-button",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "candy-button",
+      "name": "Candy Button",
+      "category": "Interactive",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/candy-button",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "pop-button",
+      "name": "Pop Button",
+      "category": "Interactive",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/pop-button",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "generate-button",
+      "name": "Generate Button",
+      "category": "Interactive",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/generate-button",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "radial-glow-button",
+      "name": "Radial Glow Button",
+      "category": "Interactive",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/radial-glow-button",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "social-flip-button",
+      "name": "Social Flip Button",
+      "category": "Interactive",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/social-flip-button",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "liquid-metal",
+      "name": "Liquid Metal",
+      "category": "Special effects",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/liquid-metal",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "creepy-button",
+      "name": "Creepy Button",
+      "category": "Interactive",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/creepy-button",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "corner-button",
+      "name": "Corner Button",
+      "category": "Interactive",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/corner-button",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "flip-text",
+      "name": "Flip Text",
+      "category": "Text & typography",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/flip-text",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "liquid-text",
+      "name": "Liquid Text",
+      "category": "Text & typography",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/liquid-text",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "morph-text",
+      "name": "Morph Text",
+      "category": "Text & typography",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/morph-text",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "ascii-glitch-ripple",
+      "name": "Ascii Glitch Ripple",
+      "category": "Text & typography",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/ascii-glitch-ripple",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "gooey-text-reveal",
+      "name": "Gooey Text Reveal",
+      "category": "Text & typography",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/gooey-text-reveal",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "image-collage",
+      "name": "Image Collage",
+      "category": "Cards & layouts",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/image-collage",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "interactive-book",
+      "name": "Interactive Book",
+      "category": "Interactive",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/interactive-book",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "model-viewer",
+      "name": "Model Viewer",
+      "category": "Special effects",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/model-viewer",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "image-trail",
+      "name": "Image Trail",
+      "category": "Special effects",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/image-trail",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "perspective-carousel",
+      "name": "Perspective Carousel",
+      "category": "Interactive",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/perspective-carousel",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "diagonal-carousel",
+      "name": "Diagonal Carousel",
+      "category": "Interactive",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/diagonal-carousel",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "ripple-displacement-slider",
+      "name": "Ripple Displacement Slider",
+      "category": "Special effects",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/ripple-displacement-slider",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "scroll-dissolve-reveal",
+      "name": "Scroll Dissolve Reveal",
+      "category": "Scroll effects",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/scroll-dissolve-reveal",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "pixelated-image-trail",
+      "name": "Pixelated Image Trail",
+      "category": "Special effects",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/pixelated-image-trail",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "interactive-keyboard",
+      "name": "Interactive Keyboard",
+      "category": "Interactive",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/interactive-keyboard",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "typing-keyboard",
+      "name": "Typing Keyboard",
+      "category": "Text & typography",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/typing-keyboard",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "solar-system",
+      "name": "Solar System",
+      "category": "Special effects",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/solar-system",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "interactive-particles",
+      "name": "Interactive Particles",
+      "category": "Special effects",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/interactive-particles",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "music-player",
+      "name": "Music Player",
+      "category": "Interactive",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/music-player",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "circular-gallery",
+      "name": "Circular Gallery",
+      "category": "Cards & layouts",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/circular-gallery",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "books-showcase",
+      "name": "Books Showcase",
+      "category": "Cards & layouts",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/books-showcase",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "agent-bento-grid",
+      "name": "Agent Bento Grid",
+      "category": "Cards & layouts",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/agent-bento-grid",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "expandable-bento-grid",
+      "name": "Expandable Bento Grid",
+      "category": "Cards & layouts",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/expandable-bento-grid",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "staggered-grid",
+      "name": "Staggered Grid",
+      "category": "Cards & layouts",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/staggered-grid",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "image-scatter",
+      "name": "Image Scatter",
+      "category": "Special effects",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/image-scatter",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "glow-border-card",
+      "name": "Glow Border Card",
+      "category": "Cards & layouts",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/glow-border-card",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "highlight-grid",
+      "name": "Highlight Grid",
+      "category": "Cards & layouts",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/highlight-grid",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "research-bento-grid",
+      "name": "Research Bento Grid",
+      "category": "Navigation",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/research-bento-grid",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "why-us-bento",
+      "name": "Why Us Bento",
+      "category": "Cards & layouts",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/why-us-bento",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "cursor-card",
+      "name": "Cursor Card",
+      "category": "Cards & layouts",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/cursor-card",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "elastic-stack",
+      "name": "Elastic Stack",
+      "category": "Cards & layouts",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/elastic-stack",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "stacked-logos",
+      "name": "Stacked Logos",
+      "category": "Cards & layouts",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/stacked-logos",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "masked-avatars",
+      "name": "Masked Avatars",
+      "category": "Cards & layouts",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/masked-avatars",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "image-reveal-list",
+      "name": "Image Reveal List",
+      "category": "Cards & layouts",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/image-reveal-list",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "shared-tooltip-avatars",
+      "name": "Shared Tooltip Avatars",
+      "category": "Navigation",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/shared-tooltip-avatars",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "magnetic-spotlight-marquee",
+      "name": "Magnetic Spotlight Marquee",
+      "category": "Special effects",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/magnetic-spotlight-marquee",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "kinetic-text-loader",
+      "name": "Kinetic Text Loader",
+      "category": "Text & typography",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/kinetic-text-loader",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "glass-dock",
+      "name": "Glass Dock",
+      "category": "Navigation",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/glass-dock",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "spotlight-navbar",
+      "name": "Spotlight Navbar",
+      "category": "Navigation",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/spotlight-navbar",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "mega-menu-navbar",
+      "name": "Mega Menu Navbar",
+      "category": "Navigation",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/mega-menu-navbar",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "gooey-search",
+      "name": "Gooey Search",
+      "category": "Navigation",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/gooey-search",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "animated-footer",
+      "name": "Animated Footer",
+      "category": "Navigation",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/animated-footer",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "awwwards-nav",
+      "name": "Awwwards Nav",
+      "category": "Navigation",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/awwwards-nav",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "search-modal",
+      "name": "Search Modal",
+      "category": "Navigation",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/search-modal",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "folder-preview",
+      "name": "Folder Preview",
+      "category": "Special effects",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/folder-preview",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "wave-grid-background",
+      "name": "Wave Grid Background",
+      "category": "Cards & layouts",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/wave-grid-background",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "aurora-hero",
+      "name": "Aurora Hero",
+      "category": "Special effects",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/aurora-hero",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "fluid-morph-bg",
+      "name": "Fluid Morph Bg",
+      "category": "Special effects",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/fluid-morph-bg",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "twisting-ribbon",
+      "name": "Twisting Ribbon",
+      "category": "Special effects",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/twisting-ribbon",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "animated-rays",
+      "name": "Animated Rays",
+      "category": "Special effects",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/animated-rays",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "perspective-grid",
+      "name": "Perspective Grid",
+      "category": "Cards & layouts",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/perspective-grid",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "light-lines",
+      "name": "Light Lines",
+      "category": "Special effects",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/light-lines",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "liquid-ocean",
+      "name": "Liquid Ocean",
+      "category": "Special effects",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/liquid-ocean",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    }
+  ],
+  "audit": [
+    {
+      "id": "my-animated-button",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/my-animated-button",
+      "status": "imported"
+    },
+    {
+      "id": "candy-button",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/candy-button",
+      "status": "imported"
+    },
+    {
+      "id": "pop-button",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/pop-button",
+      "status": "imported"
+    },
+    {
+      "id": "generate-button",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/generate-button",
+      "status": "imported"
+    },
+    {
+      "id": "radial-glow-button",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/radial-glow-button",
+      "status": "imported"
+    },
+    {
+      "id": "social-flip-button",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/social-flip-button",
+      "status": "imported"
+    },
+    {
+      "id": "liquid-metal",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/liquid-metal",
+      "status": "imported"
+    },
+    {
+      "id": "creepy-button",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/creepy-button",
+      "status": "imported"
+    },
+    {
+      "id": "corner-button",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/corner-button",
+      "status": "imported"
+    },
+    {
+      "id": "animated-number",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/animated-number",
+      "status": "duplicate",
+      "canonical": "stats-counter"
+    },
+    {
+      "id": "stats-counter",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/stats-counter",
+      "status": "duplicate",
+      "canonical": "stats-counter"
+    },
+    {
+      "id": "flip-text",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/flip-text",
+      "status": "imported"
+    },
+    {
+      "id": "flip-fade-text",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/flip-fade-text",
+      "status": "duplicate",
+      "canonical": "flip-fade-text"
+    },
+    {
+      "id": "liquid-text",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/liquid-text",
+      "status": "imported"
+    },
+    {
+      "id": "morph-text",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/morph-text",
+      "status": "imported"
+    },
+    {
+      "id": "ascii-glitch-ripple",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/ascii-glitch-ripple",
+      "status": "imported"
+    },
+    {
+      "id": "stagger-text",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/stagger-text",
+      "status": "duplicate",
+      "canonical": "stagger-text"
+    },
+    {
+      "id": "gooey-text-reveal",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/gooey-text-reveal",
+      "status": "imported"
+    },
+    {
+      "id": "image-collage",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/image-collage",
+      "status": "imported"
+    },
+    {
+      "id": "interactive-book",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/interactive-book",
+      "status": "imported"
+    },
+    {
+      "id": "model-viewer",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/model-viewer",
+      "status": "imported"
+    },
+    {
+      "id": "image-trail",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/image-trail",
+      "status": "imported"
+    },
+    {
+      "id": "perspective-carousel",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/perspective-carousel",
+      "status": "imported"
+    },
+    {
+      "id": "cylinder-carousel",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/cylinder-carousel",
+      "status": "duplicate",
+      "canonical": "cylinder-carousel"
+    },
+    {
+      "id": "diagonal-carousel",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/diagonal-carousel",
+      "status": "imported"
+    },
+    {
+      "id": "ripple-displacement-slider",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/ripple-displacement-slider",
+      "status": "imported"
+    },
+    {
+      "id": "scroll-dissolve-reveal",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/scroll-dissolve-reveal",
+      "status": "imported"
+    },
+    {
+      "id": "pixelated-image-trail",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/pixelated-image-trail",
+      "status": "imported"
+    },
+    {
+      "id": "interactive-keyboard",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/interactive-keyboard",
+      "status": "imported"
+    },
+    {
+      "id": "typing-keyboard",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/typing-keyboard",
+      "status": "imported"
+    },
+    {
+      "id": "solar-system",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/solar-system",
+      "status": "imported"
+    },
+    {
+      "id": "interactive-particles",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/interactive-particles",
+      "status": "imported"
+    },
+    {
+      "id": "music-player",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/music-player",
+      "status": "imported"
+    },
+    {
+      "id": "verse-cards",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/verse-cards",
+      "status": "duplicate",
+      "canonical": "verse-cards"
+    },
+    {
+      "id": "circular-gallery",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/circular-gallery",
+      "status": "imported"
+    },
+    {
+      "id": "books-showcase",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/books-showcase",
+      "status": "imported"
+    },
+    {
+      "id": "agent-bento-grid",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/agent-bento-grid",
+      "status": "imported"
+    },
+    {
+      "id": "expandable-bento-grid",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/expandable-bento-grid",
+      "status": "imported"
+    },
+    {
+      "id": "staggered-grid",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/staggered-grid",
+      "status": "imported"
+    },
+    {
+      "id": "image-scatter",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/image-scatter",
+      "status": "imported"
+    },
+    {
+      "id": "glow-border-card",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/glow-border-card",
+      "status": "imported"
+    },
+    {
+      "id": "testimonials-card",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/testimonials-card",
+      "status": "duplicate",
+      "canonical": "testimonials-card"
+    },
+    {
+      "id": "highlight-grid",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/highlight-grid",
+      "status": "imported"
+    },
+    {
+      "id": "research-bento-grid",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/research-bento-grid",
+      "status": "imported"
+    },
+    {
+      "id": "team-reveal-grid",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/team-reveal-grid",
+      "status": "duplicate",
+      "canonical": "team-reveal-grid"
+    },
+    {
+      "id": "why-us-bento",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/why-us-bento",
+      "status": "imported"
+    },
+    {
+      "id": "cursor-card",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/cursor-card",
+      "status": "imported"
+    },
+    {
+      "id": "elastic-stack",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/elastic-stack",
+      "status": "imported"
+    },
+    {
+      "id": "logo-slider",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/logo-slider",
+      "status": "duplicate",
+      "canonical": "marquee"
+    },
+    {
+      "id": "stacked-logos",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/stacked-logos",
+      "status": "imported"
+    },
+    {
+      "id": "masked-avatars",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/masked-avatars",
+      "status": "imported"
+    },
+    {
+      "id": "image-reveal-list",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/image-reveal-list",
+      "status": "imported"
+    },
+    {
+      "id": "faq-accordion",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/faq-accordion",
+      "status": "duplicate",
+      "canonical": "faq-accordion"
+    },
+    {
+      "id": "shared-tooltip-avatars",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/shared-tooltip-avatars",
+      "status": "imported"
+    },
+    {
+      "id": "magnetic-spotlight-marquee",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/magnetic-spotlight-marquee",
+      "status": "imported"
+    },
+    {
+      "id": "kinetic-text-loader",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/kinetic-text-loader",
+      "status": "imported"
+    },
+    {
+      "id": "glass-dock",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/glass-dock",
+      "status": "imported"
+    },
+    {
+      "id": "spotlight-navbar",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/spotlight-navbar",
+      "status": "imported"
+    },
+    {
+      "id": "notch-navbar",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/notch-navbar",
+      "status": "duplicate",
+      "canonical": "notch-navbar"
+    },
+    {
+      "id": "mega-menu-navbar",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/mega-menu-navbar",
+      "status": "imported"
+    },
+    {
+      "id": "gooey-search",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/gooey-search",
+      "status": "imported"
+    },
+    {
+      "id": "animated-footer",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/animated-footer",
+      "status": "imported"
+    },
+    {
+      "id": "awwwards-nav",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/awwwards-nav",
+      "status": "imported"
+    },
+    {
+      "id": "search-modal",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/search-modal",
+      "status": "imported"
+    },
+    {
+      "id": "line-hover-link",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/line-hover-link",
+      "status": "duplicate",
+      "canonical": "css-link"
+    },
+    {
+      "id": "folder-preview",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/folder-preview",
+      "status": "imported"
+    },
+    {
+      "id": "animated-tooltip",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/animated-tooltip",
+      "status": "duplicate",
+      "canonical": "animated-tooltip"
+    },
+    {
+      "id": "wave-grid-background",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/wave-grid-background",
+      "status": "imported"
+    },
+    {
+      "id": "aurora-hero",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/aurora-hero",
+      "status": "imported"
+    },
+    {
+      "id": "fluid-morph-bg",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/fluid-morph-bg",
+      "status": "imported"
+    },
+    {
+      "id": "twisting-ribbon",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/twisting-ribbon",
+      "status": "imported"
+    },
+    {
+      "id": "animated-rays",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/animated-rays",
+      "status": "imported"
+    },
+    {
+      "id": "perspective-grid",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/perspective-grid",
+      "status": "imported"
+    },
+    {
+      "id": "light-lines",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/light-lines",
+      "status": "imported"
+    },
+    {
+      "id": "liquid-ocean",
+      "source": "Vengeance UI",
+      "url": "https://www.vengenceui.com/components/liquid-ocean",
+      "status": "imported"
+    }
+  ],
+  "packages": [
+    "@radix-ui/react-slot",
+    "react-icons/fa",
+    "@paper-design/shaders-react",
+    "three",
+    "@gsap/react",
+    "gsap",
+    "gsap/ScrollTrigger",
+    "gsap/SplitText",
+    "@react-three/fiber",
+    "@react-three/drei",
+    "@phosphor-icons/react",
+    "imagesloaded",
+    "react-icons/si",
+    "gsap/MorphSVGPlugin",
+    "three/addons/postprocessing/EffectComposer.js",
+    "three/addons/postprocessing/RenderPass.js",
+    "three/addons/postprocessing/ShaderPass.js",
+    "three/addons/postprocessing/OutputPass.js",
+    "three/examples/jsm/lights/RectAreaLightUniformsLib.js"
+  ]
+}

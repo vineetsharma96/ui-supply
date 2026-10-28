@@ -1,0 +1,9 @@
+import React, { useRef, useState } from "react";
+import "./components.css";
+const photos=["photo-1464822759023-fed622ff2c3b","photo-1500530855697-b586d89ba3ee","photo-1470770841072-f978cf4d019e","photo-1519681393784-d120267933ba","photo-1441974231531-c6227db76b6e","photo-1501785888041-af3ef285b470"];
+const portraits=["photo-1580489944761-15a19d654956","photo-1500648767791-00dcc994a43e","photo-1534528741775-53994a69daeb"];
+export default function ScrollImageStudies(){const [mode,setMode]=useState("Grid");const [progress,setProgress]=useState(0);const root=useRef();return <div className="ff-demo ffx ffx-scroll-root" ref={root} onScroll={e=>setProgress(e.currentTarget.scrollTop/(e.currentTarget.scrollHeight-e.currentTarget.clientHeight||1))}>
+  <div className="ffx-scroll-spacer"><div className="ffx-scroll-sticky"><div className="ffx-segments">{["Grid","Masonry","Curtain","Team"].map(v=><button key={v} aria-pressed={mode===v} onClick={()=>{setMode(v);root.current.scrollTop=0;setProgress(0)}}>{v}</button>)}</div><p className="ffx-label">Scroll inside the preview to reveal</p>
+    <div className={"ffx-reveal-images mode-"+mode.toLowerCase()}>{photos.slice(0,mode==="Curtain"?1:6).map((photo,i)=>{const p=Math.min(1,Math.max(0,(progress+.12-i*.035)*2));return <figure key={photo} style={{opacity:.15+.85*p,transform:`translateY(${(1-p)*60}px) rotate(${mode==="Masonry"?(1-p)*(i%2?-15:15):0}deg) scale(${.8+.2*p})`,clipPath:mode==="Curtain"?`inset(${(1-p)*50}% 0)` : undefined}}><img src={`https://images.unsplash.com/${mode==="Team"?portraits[i%portraits.length]:photo}?auto=format&fit=crop&w=450&q=75`} alt={mode==="Team"?"Sample team portrait":"Landscape study"}/>{mode==="Team"&&<figcaption>{["Alex","Sam","Mika","Jo","Noor","Lee"][i]}<small>Design & engineering</small></figcaption>}</figure>})}</div>
+  </div></div>
+  </div>}

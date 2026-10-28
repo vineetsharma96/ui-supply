@@ -1,0 +1,6 @@
+import React, { useState } from "react";
+import { ArrowDown, Copy, Check, X } from "lucide-react";
+import "./components.css";
+// Decorative preview identifier; deliberately not a real payment address or scannable QR.
+const identifier="demo-wallet-preview";
+export default function ReceiveButton(){const [open,setOpen]=useState(false);const [copied,setCopied]=useState(false);async function copy(){try{await navigator.clipboard.writeText(identifier);setCopied(true)}catch{setCopied(false)}}return <div className="ff-demo ffx"><div className="ffx-center"><div className={"ffx-receive "+(open?"is-open":"")}>{open?<><button className="ffx-receive-close" aria-label="Close receive preview" onClick={()=>setOpen(false)}><X size={16}/></button><div className="ffx-receive-mark" aria-hidden="true">{Array.from({length:81},(_,i)=><i key={i} style={{opacity:(i*7+i%9)%5>1?1:.08}}/>)}</div><strong>Receive preview</strong><small>{identifier}</small><button className="ffx-button" onClick={copy}>{copied?<Check size={14}/>:<Copy size={14}/>} {copied?"Copied":"Copy demo identifier"}</button></>:<button className="ffx-receive-trigger" onClick={()=>setOpen(true)}><ArrowDown size={15}/>Receive</button>}</div></div></div>}

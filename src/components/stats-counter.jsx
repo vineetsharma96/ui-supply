@@ -9,6 +9,7 @@ export default function StatsCounter({
   decimals = 0,
   label = "Ideas brought to life",
   paused = false,
+  compact = false,
 }) {
   const pauseRef = useRef(paused);
   pauseRef.current = paused;
@@ -37,20 +38,20 @@ export default function StatsCounter({
     };
   }, [value, duration]);
   return (
-    <div className="ff-demo ff-stats" ref={root}>
-      <span className="ff-kicker">A LITTLE PROGRESS, EVERY DAY</span>
+    <div className={compact ? "ff-stats-compact" : "ff-demo ff-stats"} ref={root}>
+      {!compact && <span className="ff-kicker">A LITTLE PROGRESS, EVERY DAY</span>}
       <strong>
         {prefix}
-        {number.toLocaleString("en-US", {
+        {(compact && paused ? value : number).toLocaleString("en-US", {
           minimumFractionDigits: decimals,
           maximumFractionDigits: decimals,
         })}
         <span>{suffix}</span>
       </strong>
       <span className="ff-subtext">{label}</span>
-      <div className="ff-stats-line">
+      {!compact && <div className="ff-stats-line">
         <span /> <small>Always moving forward</small>
-      </div>
+      </div>}
     </div>
   );
 }

@@ -2,10 +2,7 @@ import React, { useEffect, useRef, useState, Suspense, lazy } from "react";
 import { createRoot } from "react-dom/client";
 import {
   ArrowUpRight,
-  ArrowRight,
   Search,
-  Sun,
-  Moon,
   Copy,
   Check,
   RotateCcw,
@@ -27,14 +24,38 @@ import {
   Smartphone,
 } from "lucide-react";
 import { catalog, categories } from "./catalog";
+import NotchNavbar, { NotchNavigation } from "./components/notch-navbar";
+import AnimatedThemeToggler, { ThemeToggle } from "./components/animated-theme-toggler";
+import RippleButton, { RippleControl } from "./components/ripple-button";
+import InteractiveHoverButton, { HoverAction } from "./components/interactive-hover-button";
+import StaggerText from "./components/stagger-text";
+import StatsCounter from "./components/stats-counter";
+import FaqAccordion from "./components/faq-accordion";
+import { MotionConfig } from "motion/react";
+import "./upstream.css";
 import "./styles.css";
 import "./components/components.css";
+import upstreamStyleSource from "./upstream.css?raw";
+import magicStyleSource from "./magic-animations.css?raw";
+import vengeanceStyleSource from "./vengeance-animations.css?raw";
+import aceternityStyleSource from "./aceternity-animations.css?raw";
 
-const modules = import.meta.glob("./components/*.jsx");
+const modules = import.meta.glob([
+  "./components/*.jsx",
+  "!./components/{notch-navbar,animated-theme-toggler,ripple-button,interactive-hover-button,stagger-text,stats-counter,faq-accordion}.jsx",
+]);
+const sharedDemos = {
+  "notch-navbar": NotchNavbar,
+  "animated-theme-toggler": AnimatedThemeToggler,
+  "ripple-button": RippleButton,
+  "interactive-hover-button": InteractiveHoverButton,
+  "stagger-text": StaggerText,
+  "stats-counter": StatsCounter,
+  "faq-accordion": FaqAccordion,
+};
 const sources = import.meta.glob("./components/*.jsx", {
   query: "?raw",
   import: "default",
-  eager: true,
 });
 const styles = import.meta.glob("./components/*.css", {
   query: "?raw",
@@ -42,9 +63,12 @@ const styles = import.meta.glob("./components/*.css", {
   eager: true,
 });
 const demos = Object.fromEntries(
-  catalog.map((c) => [c.id, lazy(modules[`./components/${c.id}.jsx`])]),
+  catalog.map((c) => [c.id, sharedDemos[c.id] || lazy(modules[`./components/${c.id}.jsx`])]),
 );
+const previewParams = new URLSearchParams(location.search);
+const standalonePreview = previewParams.get("preview");
 const MotionContext = React.createContext(false);
+const ThemeContext = React.createContext("dark");
 const icons = [
   Grid2X2,
   Type,
@@ -55,13 +79,28 @@ const icons = [
   Sparkles,
   FolderTree,
 ];
+class PreviewBoundary extends React.Component {
+  state = { error: null };
+  static getDerivedStateFromError(error) { return { error }; }
+  render() {
+    return this.state.error
+      ? <div className="preview-error" role="alert">Preview could not load: {this.state.error.message}</div>
+      : this.props.children;
+  }
+}
 function Demo({ id, replay = 0 }) {
   const Component = demos[id];
   const paused = React.useContext(MotionContext);
+  const theme = React.useContext(ThemeContext);
+  if (!standalonePreview && catalog.find(item => item.id === id)?.imported) {
+    return <iframe key={id + replay} className="component-frame" title={catalog.find(item => item.id === id).name + " preview"}
+      allow="autoplay; clipboard-write; fullscreen" allowFullScreen
+      src={`/?preview=${encodeURIComponent(id)}&theme=${theme}&paused=${paused}`} />;
+  }
   return (
-    <Suspense fallback={<span className="loading">Loading preview…</span>}>
+    <PreviewBoundary key={id + replay}><Suspense fallback={<span className="loading">Loading preview…</span>}>
       <Component key={id + replay} paused={paused} />
-    </Suspense>
+    </Suspense></PreviewBoundary>
   );
 }
 function CopyButton({ text, label = "Copy code" }) {
@@ -79,10 +118,10 @@ function CopyButton({ text, label = "Copy code" }) {
     timer.current = setTimeout(() => setStatus(""), 2200);
   }
   return (
-    <button className="small-button" onClick={copy}>
+    <RippleControl className="small-button catalog-ripple" onClick={copy}>
       {status === "Copied" ? <Check size={14} /> : <Copy size={14} />}
       <span aria-live="polite">{status || label}</span>
-    </button>
+    </RippleControl>
   );
 }
 function Card({ item, onOpen }) {
@@ -123,7 +162,7 @@ function Card({ item, onOpen }) {
               ? "M"
               : item.source === "Skiper UI"
                 ? "S"
-                : "C"}
+                : item.source === "Aceternity UI" ? "A" : "C"}
         </span>
       </button>
     </article>
@@ -136,7 +175,7 @@ function App() {
   const [category, setCategory] = useState("All components");
   const [query, setQuery] = useState("");
   const [theme, setTheme] = useState(
-    () => localStorage.getItem("ff-theme") || "light",
+    () => localStorage.getItem("ui-supply-theme") || "dark",
   );
   const [menu, setMenu] = useState(false);
   const [tab, setTab] = useState("preview");
@@ -144,10 +183,11 @@ function App() {
   const [replay, setReplay] = useState(0);
   const [narrow, setNarrow] = useState(false);
   const [paused, setPaused] = useState(false);
+  const [jsx, setJsx] = useState("");
   const search = useRef();
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
-    localStorage.setItem("ff-theme", theme);
+    localStorage.setItem("ui-supply-theme", theme);
   }, [theme]);
   useEffect(() => {
     function hash() {
@@ -173,6 +213,14 @@ function App() {
     };
   }, []);
   const current = catalog.find((c) => c.id === selected);
+  useEffect(() => {
+    let cancelled = false;
+    setJsx("");
+    if (current) sources[`./components/${current.id}.jsx`]().then((text) => {
+      if (!cancelled) setJsx(text);
+    });
+    return () => { cancelled = true; };
+  }, [current]);
   const filtered = catalog.filter(
     (c) =>
       (category === "All components" || c.category === category) &&
@@ -188,10 +236,14 @@ function App() {
   function filter(cat) {
     setCategory(cat);
     setQuery("");
-    open("");
+    open("components");
   }
-  const jsx = current ? sources[`./components/${current.id}.jsx`] : "";
-  const css = styles["./components/components.css"];
+  const componentCss = styles["./components/components.css"];
+  const css = current?.imported && !current.independent
+    ? upstreamStyleSource.replace('@import "./magic-animations.css";', "").replace('@import "./vengeance-animations.css";', "").replace('@import "./aceternity-animations.css";', "").replace('@source "./components";', '@source ".";') +
+      '\n:root { --bg:#fffff0; --panel:#fffff0; --soft:#f2f3ed; --fg:#292b26; --muted:#666d5e; --line:#e8e9e2; --accent:#ed6037; }\n:root[data-theme="dark"] { --bg:#191c18; --panel:#20241e; --soft:#262c23; --fg:#e4e6dc; --muted:#adb49f; --line:#34392e; }\n' +
+      magicStyleSource + "\n" + vengeanceStyleSource + "\n" + aceternityStyleSource + "\n" + componentCss
+    : componentCss;
   function download() {
     const blob = new Blob(
       [
@@ -207,8 +259,8 @@ function App() {
     URL.revokeObjectURL(url);
   }
   return (
-    <MotionContext.Provider value={paused}>
-      <div className={paused ? "app motion-paused" : "app"}>
+    <ThemeContext.Provider value={theme}><MotionContext.Provider value={paused}>
+      <div className={["app", paused && "motion-paused", !selected && "is-home"].filter(Boolean).join(" ")}>
         <a
           href="#main"
           className="skip-link"
@@ -236,29 +288,22 @@ function App() {
               UI Supply
             </span>
           </button>
-          <div className="top-nav">
-            <button
-              className="top-active"
-              onClick={() => filter("All components")}
-            >
-              Components <span>26</span>
-            </button>
-            <button onClick={() => open("getting-started")}>
-              Get started <ArrowUpRight size={13} />
-            </button>
+          <div className="top-nav library-navigation">
+            <NotchNavigation
+              items={["Home", "Components", "Get started"]}
+              active={!selected ? "Home" : selected === "getting-started" ? "Get started" : "Components"}
+              onNavigate={(item) => item === "Home" ? open("") : item === "Components" ? filter("All components") : open("getting-started")}
+              label="Main navigation"
+              logo={null}
+            />
           </div>
           <div className="top-actions">
             <span className="local-label">
-              <i /> YOUR COMPONENT COLLECTION
+              Built with our own components
             </span>
-            <button
-              className="icon-button"
-              aria-label={
-                "Switch to " + (theme === "light" ? "dark" : "light") + " theme"
-              }
-              onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-            >
-              {theme === "light" ? <Moon size={18} /> : <Sun size={18} />}
+            <ThemeToggle className="catalog-theme" dark={theme === "dark"} onToggle={() => setTheme(theme === "light" ? "dark" : "light")} />
+            <button className="pause-button global-pause" aria-pressed={paused} onClick={() => setPaused(!paused)}>
+              {paused ? "Resume motion" : "Pause motion"}
             </button>
             <button
               className="icon-button mobile-menu"
@@ -279,7 +324,7 @@ function App() {
         )}
         <aside className={menu ? "sidebar is-open" : "sidebar"}>
           <div className="sidebar-top">
-            <span className="eyebrow">THE LIBRARY</span>
+            <span className="eyebrow">The library</span>
             <span className="version">v.01</span>
           </div>
           <label className="search-box">
@@ -290,7 +335,7 @@ function App() {
               onChange={(e) => {
                 setQuery(e.target.value);
                 setCategory("All components");
-                open("");
+                open("components");
               }}
               placeholder="Find a component…"
               aria-label="Search components"
@@ -325,7 +370,7 @@ function App() {
           </nav>
           <div className="sidebar-divider" />
           <div className="sidebar-title">
-            COMPONENT INDEX <span>↓</span>
+            Component index <span>↓</span>
           </div>
           <nav className="component-index" aria-label="All components">
             {catalog.map((c) => (
@@ -350,7 +395,7 @@ function App() {
           </div>
         </aside>
         <main id="main" tabIndex={-1} className="main">
-          <div className="breadcrumb">
+          {selected && <div className="breadcrumb">
             <button onClick={() => filter("All components")}>Library</button>
             <ChevronRight size={12} />
             <span>
@@ -366,9 +411,9 @@ function App() {
                 <span>{current.name}</span>
               </>
             )}
-            <span className="breadcrumb-right">DESIGNED TO BE USED.</span>
-          </div>
-          {selected === "getting-started" ? (
+            <span className="breadcrumb-right">Designed to be used.</span>
+          </div>}
+          {!selected ? <section className="blank-home" aria-label="Homepage" /> : selected === "getting-started" ? (
             <section className="docs">
               <span className="eyebrow orange">A FEW SIMPLE STEPS</span>
               <h1>Make it yours.</h1>
@@ -380,7 +425,7 @@ function App() {
                 <div>
                   <h2>Choose a component</h2>
                   <p>
-                    Browse all 26 selections or search by name, category, or
+                    Browse all {catalog.length} components or search by name, category, or
                     reference library. Open a component for its full preview.
                   </p>
                 </div>
@@ -417,6 +462,13 @@ function App() {
                     selected libraries; they are not official packages.
                   </p>
                 </div>
+              </div>
+              <div className="docs-faq" data-ui>
+                <FaqAccordion title="Before you build." group="docs-faq" items={[
+                  { question: "What do I need to use these components?", answer: "React and the shared components.css file. No animation library is required. Lucide icons are only used by this catalog." },
+                  { question: "Is this site built with the library too?", answer: "Yes. The navigation, theme switch, headline, counters, hover actions, ripple buttons, and this accordion use the same component files available in the collection." },
+                  { question: "Are these the original upstream packages?", answer: "These are local implementations inspired by the linked references. They are not drop-in replacements for upstream APIs. Keep the credits included with adapted source." },
+                ]} />
               </div>
               <div className="reference-links">
                 {[
@@ -523,10 +575,10 @@ function App() {
                       </button>
                     </>
                   ) : (
-                    <button className="small-button" onClick={download}>
+                    <RippleControl className="small-button catalog-ripple" onClick={download} disabled={!jsx}>
                       <Download size={14} />
                       Download source
-                    </button>
+                    </RippleControl>
                   )}
                 </div>
               </div>
@@ -582,16 +634,16 @@ function App() {
                   <span className="eyebrow">IMPLEMENTATION</span>
                   <h2>Ready for your next idea.</h2>
                   <p>
-                    Copy the JSX and shared CSS into your React app.
-                    <br />
-                    Customize the content and styling to fit your project.
+                    {current.imported && !current.independent
+                      ? "Use a React project with Tailwind CSS 4 and tailwindcss-animate. Copy the source and CSS, then install the packages imported by the component."
+                      : "Copy the JSX and shared CSS into your React app, then customize the content and styling."}
                   </p>
-                  <button
-                    className="text-link"
+                  <HoverAction
+                    className="catalog-action secondary-action"
                     onClick={() => open("getting-started")}
                   >
-                    View setup guide <ArrowRight size={15} />
-                  </button>
+                    View setup guide
+                  </HoverAction>
                 </div>
                 <div className="implementation-code">
                   <div>
@@ -603,57 +655,19 @@ function App() {
               </div>
               <div className="page-pagination">
                 <button
-                  onClick={() => open(catalog[(current.index + 24) % 26].id)}
+                  onClick={() => open(catalog[(current.index - 2 + catalog.length) % catalog.length].id)}
                 >
-                  ← {catalog[(current.index + 24) % 26].name}
+                  ← {catalog[(current.index - 2 + catalog.length) % catalog.length].name}
                 </button>
-                <button onClick={() => open(catalog[current.index % 26].id)}>
-                  {catalog[current.index % 26].name} →
+                <button onClick={() => open(catalog[current.index % catalog.length].id)}>
+                  {catalog[current.index % catalog.length].name} →
                 </button>
               </div>
             </section>
           ) : (
             <section>
-              <div className="hero">
-                <div className="hero-copy">
-                  <span className="eyebrow orange">
-                    <span className="eyebrow-line" /> SMALL DETAILS. BETTER
-                    INTERFACES.
-                  </span>
-                  <h1>
-                    Good interfaces
-                    <br />
-                    start with <em>good parts.</em>
-                  </h1>
-                  <p>
-                    A considered collection of interactive components.
-                    <br />
-                    Explore the details. Take the code. Make it yours.
-                  </p>
-                  <div className="hero-bottom">
-                    <span>
-                      <i className="green-dot" />
-                      26 components, ready to explore
-                    </span>
-                    <button onClick={() => open("getting-started")}>
-                      Get started <ArrowUpRight size={15} />
-                    </button>
-                  </div>
-                </div>
-                <div className="hero-art" aria-hidden="true">
-                  <div className="art-grid" />
-                  <div className="art-label">THE ANATOMY OF A GOOD DETAIL</div>
-                  <div className="art-square square-one" />
-                  <div className="art-square square-two" />
-                  <div className="art-square square-three" />
-                  <span className="art-cross a1">+</span>
-                  <span className="art-cross a2">+</span>
-                  <div className="art-coordinate">
-                    FIG. 001 / FORM MEETS FUNCTION
-                  </div>
-                </div>
-              </div>
-              <div className="collection-toolbar">
+              <h1 className="catalog-heading">Components</h1>
+              <div className="collection-toolbar" id="collection">
                 <div>
                   <h2>
                     {query
@@ -663,7 +677,7 @@ function App() {
                         : category}
                   </h2>
                   <span>
-                    {String(filtered.length).padStart(2, "0")} COMPONENTS
+                    {filtered.length} components
                   </span>
                 </div>
                 <div className="collection-controls">
@@ -675,7 +689,7 @@ function App() {
                   </button>
                   <span className="live-label">
                     <i />
-                    LIVE PREVIEWS
+                    Live previews
                   </span>
                 </div>
               </div>
@@ -707,7 +721,7 @@ function App() {
                   </button>
                 ))}
                 <span className="filter-end">
-                  BUILT TO INTERACT <MousePointer2 size={12} />
+                  Built to interact <MousePointer2 size={12} />
                 </span>
               </div>
               <div className="component-grid">
@@ -733,19 +747,26 @@ function App() {
               )}
             </section>
           )}
-          <footer className="footer">
+          {selected && <footer className="footer">
             <span>
-              UI SUPPLY{" "}
-              <span className="muted">/ A PERSONAL UI COLLECTION</span>
+              UI Supply{" "}
+              <span className="muted">/ A personal UI collection</span>
             </span>
             <span>
-              26 thoughtful details. Endless possibilities.{" "}
+              {catalog.length} thoughtful details. Endless possibilities.{" "}
               <span className="orange">↗</span>
             </span>
-          </footer>
+          </footer>}
         </main>
       </div>
-    </MotionContext.Provider>
+    </MotionContext.Provider></ThemeContext.Provider>
   );
 }
-createRoot(document.getElementById("root")).render(<App />);
+function StandalonePreview() {
+  const paused = previewParams.get("paused") === "true";
+  document.documentElement.dataset.theme = previewParams.get("theme") || "dark";
+  return <ThemeContext.Provider value={previewParams.get("theme") || "dark"}><MotionContext.Provider value={paused}><MotionConfig reducedMotion={paused ? "always" : "never"}>
+    <div className={"standalone-preview" + (paused ? " motion-paused" : "")}><Demo id={standalonePreview} /></div>
+  </MotionConfig></MotionContext.Provider></ThemeContext.Provider>;
+}
+createRoot(document.getElementById("root")).render(standalonePreview ? <StandalonePreview /> : <App />);

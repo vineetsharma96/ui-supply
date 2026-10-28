@@ -1,0 +1,5 @@
+import React, { useState } from "react";
+import { Sparkles, Bookmark, Layers, ArrowLeft } from "lucide-react";
+import "./components.css";
+const tiles=[{name:"Ideas",count:12,color:"#ad41f7",icon:Sparkles},{name:"Saved",count:25,color:"#202020",icon:Bookmark},{name:"In progress",count:8,color:"#08aecb",icon:Layers},{name:"Published",count:3,color:"#337af8",icon:Sparkles}];
+export default function ExpandingTiles(){const [active,setActive]=useState(null);return <div className="ff-demo ffx"><div className="ffx-center"><div className={"ffx-tiles "+(active!==null?"has-active":"")}>{tiles.map((item,i)=>{const Icon=item.icon;return <button key={item.name} className={active===i?"is-active":""} style={{"--tile-color":item.color}} onClick={()=>setActive(active===i?null:i)} aria-expanded={active===i}><Icon size={20}/><span>{item.name}</span><small>{item.count} items</small>{active===i&&<div className="ffx-tile-detail"><p>Your collection, all in one place.</p><span><ArrowLeft size={14}/> Back to collections</span></div>}</button>})}</div></div></div>}

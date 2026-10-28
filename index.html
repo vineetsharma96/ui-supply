@@ -1,14 +1,18 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta
       name="description"
-      content="A curated library of 26 interactive UI components. Explore live previews, inspect the source, and make them yours."
+      content="A collection of interactive React UI components. Explore live previews, inspect the source, and make them yours."
     />
     <title>UI Supply · UI Library</title>
+    <script>
+      try { document.documentElement.dataset.theme = localStorage.getItem("ui-supply-theme") || "dark"; } catch {}
+    </script>
   </head>
   <body>
     <div id="root"></div>

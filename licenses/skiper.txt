@@ -1,0 +1,14 @@
+Skiper UI attribution
+
+Free registry components are credited to Skiper UI / gxuri (Gurvinder Singh).
+Individual source files retain additional upstream attributions where supplied.
+
+The public component documentation states:
+"Free to use and modify in both personal and commercial projects."
+"Attribution to Skiper UI is required when using the free version."
+
+Source: https://skiper-ui.com/components
+
+Premium reference screenshots were inspected to author independent interaction studies.
+No Pro license key, authentication bypass, or premium source was used.
+Study groupings and source references are recorded in references/component-coverage.md.

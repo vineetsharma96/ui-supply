@@ -1,6 +1,7 @@
 node_modules/
 dist/
 .playwright-mcp/
+.taste-skill/
 .env
 .env.*
 !.env.example
@@ -9,5 +10,17 @@ Thumbs.db
 .DS_Store
 # Retrieved upstream research snapshots stay local; ship the authored components.
 references/*.json
+!references/source-indexes.json
+!references/skiper-index.json
+!references/component-coverage.json
+!references/*-import-audit.json
 references/*.cjs
 references/*.response.txt
+references/*.html
+references/*.txt
+references/import-cache/
+references/skiper-previews/*.txt
+references/component-checks/
+references/component-check-results.json
+references/vengeance-*.tsx
+references/vengeance-*.ts

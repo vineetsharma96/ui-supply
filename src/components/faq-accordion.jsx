@@ -17,13 +17,13 @@ const questions = [
       "A React project and the included CSS. These local implementations do not need an animation library.",
   },
 ];
-export default function FaqAccordion({ items = questions }) {
+export default function FaqAccordion({ items = questions, title = "Glad you asked.", group = "ff-faq-group", bouncy = false }) {
   return (
-    <div className="ff-demo ff-faq">
+    <div className={"ff-demo ff-faq" + (bouncy ? " ff-faq-bouncy" : "")}>
       <span className="ff-kicker">A LITTLE CLARITY</span>
-      <h3>Glad you asked.</h3>
+      <h3>{title}</h3>
       {items.map((item, i) => (
-        <details key={i} name="ff-faq-group">
+        <details key={i} name={group}>
           <summary>
             {item.question}
             <span>+</span>

@@ -1,6 +1,12 @@
 const v = "https://www.vengenceui.com/components/";
 const m = "https://magicui.design/docs/components/";
 const s = "https://skiper-ui.com/v1/";
+import vengeanceAdditions from "./vengeance-additions.js";
+import magicAdditions from "./magic-additions.js";
+import aceternityAdditions from "./aceternity-additions.js";
+import skiperAdditions from "./skiper-additions.js";
+import independentAdditions from "./independent-additions.js";
+import { extraAliases } from "./source-aliases.js";
 // Every explicitly selected component in libary.txt, in the user's categories.
 export const categories = [
   "All components",
@@ -247,7 +253,7 @@ export const catalog = [
     m + "file-tree",
     "Expand folders and select files in a nested, keyboard-accessible tree.",
   ],
-].map(([id, name, category, source, description, url, hint], i) => ({
+].map(([id, name, category, source, description, url, hint]) => ({
   id,
   name,
   category,
@@ -255,5 +261,12 @@ export const catalog = [
   description,
   url,
   hint,
-  index: i + 1,
+})).concat(vengeanceAdditions, magicAdditions,
+  aceternityAdditions.filter(item=>!["feature-sections-free","hero-sections-free"].includes(item.id)),
+  skiperAdditions.filter(item => item.id !== "skiper67"), independentAdditions,
+).map((item, index) => ({
+  ...item,
+  independent:item.independent || ["scroll-progress","skiper99"].includes(item.id),
+  references:[...new Set([item.url,...(item.references || []),...extraAliases.filter(alias=>alias.id===item.id).map(alias=>alias.url)])],
+  index: index + 1,
 }));

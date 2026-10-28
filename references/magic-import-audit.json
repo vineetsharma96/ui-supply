@@ -1,0 +1,1118 @@
+{
+  "added": [
+    {
+      "id": "hero-video-dialog",
+      "name": "Hero Video Dialog",
+      "category": "Interactive",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/hero-video-dialog",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "bento-grid",
+      "name": "Bento Grid",
+      "category": "Cards & layouts",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/bento-grid",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "animated-list",
+      "name": "Animated List",
+      "category": "Cards & layouts",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/animated-list",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "dock",
+      "name": "Dock",
+      "category": "Navigation",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/dock",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "globe",
+      "name": "Globe",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/globe",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "tweet-card",
+      "name": "Tweet Card",
+      "category": "Cards & layouts",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/tweet-card",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "orbiting-circles",
+      "name": "Orbiting Circles",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/orbiting-circles",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "avatar-circles",
+      "name": "Avatar Circles",
+      "category": "Cards & layouts",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/avatar-circles",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "icon-cloud",
+      "name": "Icon Cloud",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/icon-cloud",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "lens",
+      "name": "Lens",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/lens",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "pointer",
+      "name": "Pointer",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/pointer",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "smooth-cursor",
+      "name": "Smooth Cursor",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/smooth-cursor",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "progressive-blur",
+      "name": "Progressive Blur",
+      "category": "Scroll effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/progressive-blur",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "dotted-map",
+      "name": "Dotted Map",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/dotted-map",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "shine-border",
+      "name": "Shine Border",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/shine-border",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "magic-card",
+      "name": "Magic Card",
+      "category": "Cards & layouts",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/magic-card",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "glare-hover",
+      "name": "Glare Hover",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/glare-hover",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "meteors",
+      "name": "Meteors",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/meteors",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "confetti",
+      "name": "Confetti",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/confetti",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "particles",
+      "name": "Particles",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/particles",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "blur-fade",
+      "name": "Blur Fade",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/blur-fade",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "typing-animation",
+      "name": "Typing Animation",
+      "category": "Text & typography",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/typing-animation",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "line-shadow-text",
+      "name": "Line Shadow Text",
+      "category": "Text & typography",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/line-shadow-text",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "aurora-text",
+      "name": "Aurora Text",
+      "category": "Text & typography",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/aurora-text",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "animated-shiny-text",
+      "name": "Animated Shiny Text",
+      "category": "Text & typography",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/animated-shiny-text",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "animated-gradient-text",
+      "name": "Animated Gradient Text",
+      "category": "Text & typography",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/animated-gradient-text",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "dia-text-reveal",
+      "name": "Dia Text Reveal",
+      "category": "Text & typography",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/dia-text-reveal",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "hyper-text",
+      "name": "Hyper Text",
+      "category": "Text & typography",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/hyper-text",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "sparkles-text",
+      "name": "Sparkles Text",
+      "category": "Text & typography",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/sparkles-text",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "morphing-text",
+      "name": "Morphing Text",
+      "category": "Text & typography",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/morphing-text",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "spinning-text",
+      "name": "Spinning Text",
+      "category": "Text & typography",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/spinning-text",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "highlighter",
+      "name": "Highlighter",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/highlighter",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "text-3d-flip",
+      "name": "Text 3d Flip",
+      "category": "Text & typography",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/text-3d-flip",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "safari",
+      "name": "Safari",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/safari",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "iphone",
+      "name": "Iphone",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/iphone",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "android",
+      "name": "Android",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/android",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "rainbow-button",
+      "name": "Rainbow Button",
+      "category": "Interactive",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/rainbow-button",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "shimmer-button",
+      "name": "Shimmer Button",
+      "category": "Interactive",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/shimmer-button",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "flickering-grid",
+      "name": "Flickering Grid",
+      "category": "Cards & layouts",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/flickering-grid",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "animated-grid-pattern",
+      "name": "Animated Grid Pattern",
+      "category": "Cards & layouts",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/animated-grid-pattern",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "retro-grid",
+      "name": "Retro Grid",
+      "category": "Cards & layouts",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/retro-grid",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "ripple",
+      "name": "Ripple",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/ripple",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "dot-pattern",
+      "name": "Dot Pattern",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/dot-pattern",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "grid-pattern",
+      "name": "Grid Pattern",
+      "category": "Cards & layouts",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/grid-pattern",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "hexagon-pattern",
+      "name": "Hexagon Pattern",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/hexagon-pattern",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "striped-pattern",
+      "name": "Striped Pattern",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/striped-pattern",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "interactive-grid-pattern",
+      "name": "Interactive Grid Pattern",
+      "category": "Cards & layouts",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/interactive-grid-pattern",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "light-rays",
+      "name": "Light Rays",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/light-rays",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "noise-texture",
+      "name": "Noise Texture",
+      "category": "Text & typography",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/noise-texture",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "floating-3d-particles",
+      "name": "Floating 3d Particles",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/floating-3d-particles",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "shiny-button",
+      "name": "Shiny Button",
+      "category": "Interactive",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/shiny-button",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "code-comparison",
+      "name": "Code Comparison",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/code-comparison",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "scroll-progress",
+      "name": "Scroll Progress",
+      "category": "Scroll effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/scroll-progress",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "neon-gradient-card",
+      "name": "Neon Gradient Card",
+      "category": "Cards & layouts",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/neon-gradient-card",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "comic-text",
+      "name": "Comic Text",
+      "category": "Text & typography",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/comic-text",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "kinetic-text",
+      "name": "Kinetic Text",
+      "category": "Text & typography",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/kinetic-text",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "pixel-image",
+      "name": "Pixel Image",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/pixel-image",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "pulsating-button",
+      "name": "Pulsating Button",
+      "category": "Interactive",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/pulsating-button",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "warp-background",
+      "name": "Warp Background",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/warp-background",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "animated-circular-progress-bar",
+      "name": "Animated Circular Progress Bar",
+      "category": "Scroll effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/animated-circular-progress-bar",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "backlight",
+      "name": "Backlight",
+      "category": "Special effects",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/backlight",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    },
+    {
+      "id": "glyph-matrix",
+      "name": "Glyph Matrix",
+      "category": "Text & typography",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/glyph-matrix",
+      "description": "Public upstream component, adapted for React and Vite.",
+      "hint": "Interact with the original upstream example. Source includes the component and demo; install the listed package imports and Tailwind CSS when reusing it.",
+      "imported": true
+    }
+  ],
+  "audit": [
+    {
+      "id": "marquee",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/marquee",
+      "status": "duplicate",
+      "canonical": "marquee"
+    },
+    {
+      "id": "terminal",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/terminal",
+      "status": "duplicate",
+      "canonical": "terminal"
+    },
+    {
+      "id": "hero-video-dialog",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/hero-video-dialog",
+      "status": "imported"
+    },
+    {
+      "id": "bento-grid",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/bento-grid",
+      "status": "imported"
+    },
+    {
+      "id": "animated-list",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/animated-list",
+      "status": "imported"
+    },
+    {
+      "id": "dock",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/dock",
+      "status": "imported"
+    },
+    {
+      "id": "globe",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/globe",
+      "status": "imported"
+    },
+    {
+      "id": "tweet-card",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/tweet-card",
+      "status": "imported"
+    },
+    {
+      "id": "orbiting-circles",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/orbiting-circles",
+      "status": "imported"
+    },
+    {
+      "id": "avatar-circles",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/avatar-circles",
+      "status": "imported"
+    },
+    {
+      "id": "icon-cloud",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/icon-cloud",
+      "status": "imported"
+    },
+    {
+      "id": "lens",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/lens",
+      "status": "imported"
+    },
+    {
+      "id": "pointer",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/pointer",
+      "status": "imported"
+    },
+    {
+      "id": "smooth-cursor",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/smooth-cursor",
+      "status": "imported"
+    },
+    {
+      "id": "progressive-blur",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/progressive-blur",
+      "status": "imported"
+    },
+    {
+      "id": "dotted-map",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/dotted-map",
+      "status": "imported"
+    },
+    {
+      "id": "animated-beam",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/animated-beam",
+      "status": "duplicate",
+      "canonical": "animated-beam"
+    },
+    {
+      "id": "border-beam",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/border-beam",
+      "status": "duplicate",
+      "canonical": "border-beam"
+    },
+    {
+      "id": "shine-border",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/shine-border",
+      "status": "imported"
+    },
+    {
+      "id": "magic-card",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/magic-card",
+      "status": "imported"
+    },
+    {
+      "id": "glare-hover",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/glare-hover",
+      "status": "imported"
+    },
+    {
+      "id": "meteors",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/meteors",
+      "status": "imported"
+    },
+    {
+      "id": "confetti",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/confetti",
+      "status": "imported"
+    },
+    {
+      "id": "particles",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/particles",
+      "status": "imported"
+    },
+    {
+      "id": "animated-theme-toggler",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/animated-theme-toggler",
+      "status": "duplicate",
+      "canonical": "animated-theme-toggler"
+    },
+    {
+      "id": "blur-fade",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/blur-fade",
+      "status": "imported"
+    },
+    {
+      "id": "text-animate",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/text-animate",
+      "status": "duplicate",
+      "canonical": "stagger-text"
+    },
+    {
+      "id": "typing-animation",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/typing-animation",
+      "status": "imported"
+    },
+    {
+      "id": "line-shadow-text",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/line-shadow-text",
+      "status": "imported"
+    },
+    {
+      "id": "aurora-text",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/aurora-text",
+      "status": "imported"
+    },
+    {
+      "id": "video-text",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/video-text",
+      "status": "duplicate",
+      "canonical": "video-text"
+    },
+    {
+      "id": "number-ticker",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/number-ticker",
+      "status": "duplicate",
+      "canonical": "stats-counter"
+    },
+    {
+      "id": "animated-shiny-text",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/animated-shiny-text",
+      "status": "imported"
+    },
+    {
+      "id": "animated-gradient-text",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/animated-gradient-text",
+      "status": "imported"
+    },
+    {
+      "id": "text-reveal",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/text-reveal",
+      "status": "duplicate",
+      "canonical": "horizontal-text-reveal"
+    },
+    {
+      "id": "dia-text-reveal",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/dia-text-reveal",
+      "status": "imported"
+    },
+    {
+      "id": "hyper-text",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/hyper-text",
+      "status": "imported"
+    },
+    {
+      "id": "word-rotate",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/word-rotate",
+      "status": "duplicate",
+      "canonical": "flip-fade-text"
+    },
+    {
+      "id": "scroll-based-velocity",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/scroll-based-velocity",
+      "status": "duplicate",
+      "canonical": "scroll-based-velocity"
+    },
+    {
+      "id": "sparkles-text",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/sparkles-text",
+      "status": "imported"
+    },
+    {
+      "id": "morphing-text",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/morphing-text",
+      "status": "imported"
+    },
+    {
+      "id": "spinning-text",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/spinning-text",
+      "status": "imported"
+    },
+    {
+      "id": "highlighter",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/highlighter",
+      "status": "imported"
+    },
+    {
+      "id": "text-3d-flip",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/text-3d-flip",
+      "status": "imported"
+    },
+    {
+      "id": "safari",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/safari",
+      "status": "imported"
+    },
+    {
+      "id": "iphone",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/iphone",
+      "status": "imported"
+    },
+    {
+      "id": "android",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/android",
+      "status": "imported"
+    },
+    {
+      "id": "rainbow-button",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/rainbow-button",
+      "status": "imported"
+    },
+    {
+      "id": "shimmer-button",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/shimmer-button",
+      "status": "imported"
+    },
+    {
+      "id": "ripple-button",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/ripple-button",
+      "status": "duplicate",
+      "canonical": "ripple-button"
+    },
+    {
+      "id": "flickering-grid",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/flickering-grid",
+      "status": "imported"
+    },
+    {
+      "id": "animated-grid-pattern",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/animated-grid-pattern",
+      "status": "imported"
+    },
+    {
+      "id": "retro-grid",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/retro-grid",
+      "status": "imported"
+    },
+    {
+      "id": "ripple",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/ripple",
+      "status": "imported"
+    },
+    {
+      "id": "dot-pattern",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/dot-pattern",
+      "status": "imported"
+    },
+    {
+      "id": "grid-pattern",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/grid-pattern",
+      "status": "imported"
+    },
+    {
+      "id": "hexagon-pattern",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/hexagon-pattern",
+      "status": "imported"
+    },
+    {
+      "id": "striped-pattern",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/striped-pattern",
+      "status": "imported"
+    },
+    {
+      "id": "interactive-grid-pattern",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/interactive-grid-pattern",
+      "status": "imported"
+    },
+    {
+      "id": "light-rays",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/light-rays",
+      "status": "imported"
+    },
+    {
+      "id": "noise-texture",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/noise-texture",
+      "status": "imported"
+    },
+    {
+      "id": "floating-3d-particles",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/floating-3d-particles",
+      "status": "imported"
+    },
+    {
+      "id": "shiny-button",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/shiny-button",
+      "status": "imported"
+    },
+    {
+      "id": "file-tree",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/file-tree",
+      "status": "duplicate",
+      "canonical": "file-tree"
+    },
+    {
+      "id": "code-comparison",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/code-comparison",
+      "status": "imported"
+    },
+    {
+      "id": "scroll-progress",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/scroll-progress",
+      "status": "imported"
+    },
+    {
+      "id": "neon-gradient-card",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/neon-gradient-card",
+      "status": "imported"
+    },
+    {
+      "id": "comic-text",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/comic-text",
+      "status": "imported"
+    },
+    {
+      "id": "kinetic-text",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/kinetic-text",
+      "status": "imported"
+    },
+    {
+      "id": "cool-mode",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/cool-mode",
+      "status": "duplicate",
+      "canonical": "cool-mode"
+    },
+    {
+      "id": "pixel-image",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/pixel-image",
+      "status": "imported"
+    },
+    {
+      "id": "pulsating-button",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/pulsating-button",
+      "status": "imported"
+    },
+    {
+      "id": "warp-background",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/warp-background",
+      "status": "imported"
+    },
+    {
+      "id": "interactive-hover-button",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/interactive-hover-button",
+      "status": "duplicate",
+      "canonical": "interactive-hover-button"
+    },
+    {
+      "id": "animated-circular-progress-bar",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/animated-circular-progress-bar",
+      "status": "imported"
+    },
+    {
+      "id": "backlight",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/backlight",
+      "status": "imported"
+    },
+    {
+      "id": "glyph-matrix",
+      "source": "Magic UI",
+      "url": "https://magicui.design/docs/components/glyph-matrix",
+      "status": "imported"
+    }
+  ],
+  "packages": [
+    "@radix-ui/react-icons",
+    "react-day-picker",
+    "class-variance-authority",
+    "radix-ui",
+    "cobe",
+    "react-tweet",
+    "react-tweet/api",
+    "svg-dotted-map",
+    "canvas-confetti",
+    "rough-notation",
+    "@radix-ui/react-slot",
+    "@shikijs/transformers",
+    "shiki"
+  ]
+}
