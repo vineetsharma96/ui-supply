@@ -1,0 +1,54 @@
+text
+npx shadcn@latest add https://raw.githubusercontent.com/Ashutoshx7/VengeanceUI/main/public/r/stats-counter.json
+https://www.vengenceui.com/components/flip-fade-text// npx shadcn@latest add https://raw.githubusercontent.com/Ashutoshx7/VengeanceUI/main/public/r/flip-fade-text.json
+https://www.vengenceui.com/components/stagger-text// npx shadcn@latest add https://raw.githubusercontent.com/Ashutoshx7/VengeanceUI/main/public/r/stagger-text.json
+pnpm dlx shadcn add @skiper-ui/skiper72
+https://magicui.design/docs/components/video-text
+https://magicui.design/docs/components/scroll-based-velocity
+
+interactive
+https://www.vengenceui.com/components/share-sheet // npx shadcn@latest add https://raw.githubusercontent.com/Ashutoshx7/VengeanceUI/main/public/r/share-sheet.json
+https://www.vengenceui.com/components/cylinder-carousel// npx shadcn@latest add https://raw.githubusercontent.com/Ashutoshx7/VengeanceUI/main/public/r/cylinder-carousel.json
+
+layout hero
+https://www.vengenceui.com/components/verse-cards// npx shadcn@latest add https://raw.githubusercontent.com/Ashutoshx7/VengeanceUI/main/public/r/verse-cards.json
+https://www.vengenceui.com/components/testimonials-card// npx shadcn@latest add https://raw.githubusercontent.com/Ashutoshx7/VengeanceUI/main/public/r/testimonials-card.json
+https://www.vengenceui.com/components/team-reveal-grid// npx shadcn@latest add https://raw.githubusercontent.com/Ashutoshx7/VengeanceUI/main/public/r/team-reveal-grid.json
+
+
+navbar docs
+https://www.vengenceui.com/components/faq-accordion// npx shadcn@latest add https://raw.githubusercontent.com/Ashutoshx7/VengeanceUI/main/public/r/faq-accordion.json
+https://www.vengenceui.com/components/notch-navbar// npx shadcn@latest add https://raw.githubusercontent.com/Ashutoshx7/VengeanceUI/main/public/r/notch-navbar.json
+
+https://www.vengenceui.com/components/animated-tooltip// npx shadcn@latest add https://raw.githubusercontent.com/Ashutoshx7/VengeanceUI/main/public/r/animated-tooltip.json
+
+npx shadcn add @skiper-ui/skiper40
+
+scroll effect 
+pnpm dlx shadcn add @skiper-ui/skiper19
+
+
+https://kokonutui.com/
+https://skiper-ui.com/
+
+hello effect
+https://chanhdai.com/components/apple-hello-effect
+
+comments
+https://magicui.design/docs/components/marquee
+
+terminal
+https://magicui.design/docs/components/terminal
+
+special effects
+https://magicui.design/docs/components/animated-beam
+https://magicui.design/docs/components/border-beam
+https://magicui.design/docs/components/animated-theme-toggler
+https://magicui.design/docs/components/ripple-button
+https://magicui.design/docs/components/cool-mode
+https://magicui.design/docs/components/interactive-hover-button
+
+file tree
+https://magicui.design/docs/components/file-tree
+
+https://magicui.design/

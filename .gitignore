@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.playwright-mcp/
+.env
+.env.*
+!.env.example
+*.log
+Thumbs.db
+.DS_Store
+# Retrieved upstream research snapshots stay local; ship the authored components.
+references/*.json
+references/*.cjs
+references/*.response.txt
