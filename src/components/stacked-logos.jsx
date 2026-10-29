@@ -64,7 +64,7 @@ var StackedLogos = ({
     "div",
     {
       ref: containerRef,
-      className: cn("stacked-logos relative w-auto", className),
+      className: cn("stacked-logos relative w-full min-w-0", className),
       style: {
         "--duration": duration,
         "--items": itemCount,
@@ -80,7 +80,7 @@ var StackedLogos = ({
           ref: gridRef,
           className: "grid relative mx-auto w-fit",
           style: {
-            gridTemplateColumns: `repeat(${columns}, ${logoWidth})`
+            gridTemplateColumns: `repeat(${columns}, minmax(0, 1fr))`, width: "100%"
           },
           children: [
             /* @__PURE__ */ jsx(

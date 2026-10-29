@@ -24,6 +24,16 @@
   --color-popover-foreground: var(--fg);
   --color-input: var(--line);
   --color-ring: var(--accent);
+  --color-accent: var(--soft);
+  --color-accent-foreground: var(--fg);
+  --color-secondary: var(--soft);
+  --color-secondary-foreground: var(--fg);
+  --color-1: #ff6363;
+  --color-2: #a66cff;
+  --color-3: #45c8ff;
+  --color-4: #76df9a;
+  --color-5: #ffd365;
+  --animate-aurora-bg: aurora-smooth-bg 45s linear infinite;
 }
 
 .upstream-preview {
@@ -68,3 +78,63 @@
 .vendor-example-picker:empty { display:none; }
 .vendor-example-picker button { background:var(--panel); color:var(--fg); border:1px solid var(--line); border-radius:5px; padding:6px 10px; font-size:11px; }
 .vendor-example-picker button[aria-pressed=true] { background:var(--fg); color:var(--bg); }
+
+/* Upstream demos were authored for full documentation pages. Keep their demo
+   canvases inside the iframe without changing the reusable component API. */
+.vendor-content { place-items: safe center; min-width: 0; grid-template-columns: minmax(0, 1fr); }
+.vendor-content > * { min-width: 0; }
+.standalone-preview { overflow-x: clip; }
+.standalone-preview[data-component="safari"] .vendor-content > div {
+  width: min(calc(100% - 32px), calc((100svh - 32px) * 1.59));
+}
+.standalone-preview[data-component="iphone"] .vendor-content > div {
+  width: min(calc(100% - 32px), calc((100svh - 32px) * 0.491));
+}
+.standalone-preview[data-component="android"] .vendor-content > div {
+  width: min(calc(100% - 32px), calc((100svh - 32px) * 0.475));
+}
+.standalone-preview[data-component="pixelated-canvas"] .vendor-content > div {
+  max-width: calc(100% - 32px);
+}
+.standalone-preview[data-component="pixelated-canvas"] canvas {
+  max-width: 100%; height: auto !important;
+}
+.standalone-preview[data-component="evervault-card"] .vendor-content > div {
+  width: min(340px, calc(100% - 32px)); margin: 16px auto;
+}
+.standalone-preview[data-component="text-reveal-card"] .vendor-content > div {
+  min-height: 100%; height: auto; padding: 20px;
+}
+.standalone-preview[data-component="text-reveal-card"] .vendor-content > div > div {
+  width: 100%; max-width: 640px; padding: clamp(16px, 4vw, 32px);
+}
+.standalone-preview[data-component="text-reveal-card"] .vendor-content p.font-bold {
+  font-size: clamp(20px, 5vw, 40px); white-space: normal;
+}
+.standalone-preview[data-component="warp-background"] .vendor-content > div {
+  padding: clamp(16px, 5vw, 60px); max-width: calc(100% - 24px);
+}
+.standalone-preview[data-component="warp-background"] [data-slot="card"] { max-width: 100%; }
+.standalone-preview[data-component="spotlight-navbar"] nav { max-width: 100%; }
+.standalone-preview[data-component="spotlight-navbar"] nav :is(button, a) {
+  padding-inline: clamp(7px, 2vw, 24px); font-size: clamp(11px, 2.4vw, 14px);
+}
+.standalone-preview[data-component="spotlight-navbar"] nav ul { padding-inline: 6px; margin: 0; }
+.standalone-preview[data-component="solar-system"] .vendor-content {
+  --radius-inner: clamp(60px, 15vw, 130px);
+  --radius-mid: clamp(90px, 24vw, 210px);
+  --radius-outer: clamp(120px, 32vw, 280px);
+}
+.standalone-preview[data-component="solar-system"] .vendor-content > div {
+  min-height: 100%; height: 100%; overflow: hidden;
+}
+.standalone-preview[data-component="tabs"] .vendor-content > div {
+  margin: 20px auto; height: max(320px, calc(100svh - 40px)); max-width: calc(100% - 32px);
+}
+.standalone-preview[data-component="skiper53"] .group { max-width: 100%; }
+.standalone-preview[data-component="skiper16"] .origin-top { max-width: calc(100vw - 32px); }
+.standalone-preview[data-component="awwwards-nav"] nav { width: calc(100% - 24px); max-width: 680px; }
+@media (max-width: 480px) {
+  .standalone-preview[data-component="awwwards-nav"] nav :is(a, [role="button"]) { padding-inline: 5px; font-size: 11px; }
+  .upstream-preview :is(.text-8xl, .text-9xl) { font-size: clamp(36px, 14cqw, 64px); }
+}

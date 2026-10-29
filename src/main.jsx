@@ -187,6 +187,7 @@ function App() {
   const search = useRef();
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
+    document.documentElement.classList.toggle("dark", theme === "dark");
     localStorage.setItem("ui-supply-theme", theme);
   }, [theme]);
   useEffect(() => {
@@ -573,6 +574,14 @@ function App() {
                         <RotateCcw size={14} />
                         Replay
                       </button>
+                      <a
+                        className="icon-button"
+                        href={`/?preview=${encodeURIComponent(current.id)}&theme=${theme}`}
+                        target="_blank"
+                        rel="noreferrer"
+                        title="Open full preview"
+                        aria-label="Open full preview"
+                      ><ArrowUpRight size={16} /></a>
                     </>
                   ) : (
                     <RippleControl className="small-button catalog-ripple" onClick={download} disabled={!jsx}>
@@ -765,8 +774,9 @@ function App() {
 function StandalonePreview() {
   const paused = previewParams.get("paused") === "true";
   document.documentElement.dataset.theme = previewParams.get("theme") || "dark";
+  document.documentElement.classList.toggle("dark", (previewParams.get("theme") || "dark") === "dark");
   return <ThemeContext.Provider value={previewParams.get("theme") || "dark"}><MotionContext.Provider value={paused}><MotionConfig reducedMotion={paused ? "always" : "never"}>
-    <div className={"standalone-preview" + (paused ? " motion-paused" : "")}><Demo id={standalonePreview} /></div>
+    <div data-component={standalonePreview} className={"standalone-preview" + (paused ? " motion-paused" : "")}><Demo id={standalonePreview} /></div>
   </MotionConfig></MotionContext.Provider></ThemeContext.Provider>;
 }
 createRoot(document.getElementById("root")).render(standalonePreview ? <StandalonePreview /> : <App />);

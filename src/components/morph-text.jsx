@@ -40,7 +40,7 @@ function MorphText({
   words = ["CREATE", "DESIGN", "DEVELOP"],
   interval = 3e3,
   subtext,
-  fontSize = "clamp(3rem, 15vw, 10rem)",
+  fontSize = "clamp(2rem, 10cqw, 6rem)",
   fontFamily = '"Space Grotesk", sans-serif',
   className,
   textClassName,
@@ -54,7 +54,7 @@ function MorphText({
     animationDelay: `${i * wordDuration}s`,
     animationDuration: `${totalDuration}s`
   }));
-  return /* @__PURE__ */ jsxs("div", { className: cn("morph-text-root relative flex flex-col items-center", className), children: [
+  return /* @__PURE__ */ jsxs("div", { className: cn("morph-text-root relative flex w-full min-w-0 flex-col items-center", className), children: [
     /* @__PURE__ */ jsx(
       "svg",
       {
@@ -78,7 +78,7 @@ function MorphText({
     /* @__PURE__ */ jsx(
       "div",
       {
-        className: cn("morph-text-container relative select-none", textClassName),
+        className: cn("morph-text-container relative w-full min-w-0 select-none", textClassName),
         style: {
           fontSize,
           fontWeight: 700,
@@ -89,7 +89,7 @@ function MorphText({
           "div",
           {
             className: "morph-word-rotator relative flex items-center justify-center",
-            style: { height: "1.2em", minWidth: "14ch" },
+            style: { height: "1.2em", width: "100%", minWidth: 0 },
             children: words.map((word, i) => /* @__PURE__ */ jsx(
               "span",
               {

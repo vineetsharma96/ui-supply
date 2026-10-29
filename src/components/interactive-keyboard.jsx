@@ -251,10 +251,10 @@ function InteractiveKeyboard({ className, onKeyClick, onKeyPress, onPointerEnter
           display: flex;
           width: 100%;
           justify-content: center;
-          padding: 4em;
+          padding: 1em;
         }
 
-        :is(.dark) .interactive-keyboard-wrapper {
+        :is(.dark, [data-theme="dark"]) .interactive-keyboard-wrapper {
           --kb-key-top: #18181b;
           --kb-key-bottom: #0c0b10;
           --kb-text: #b4b4bc;
@@ -336,14 +336,14 @@ function InteractiveKeyboard({ className, onKeyClick, onKeyPress, onPointerEnter
           gap: 0.375em 0.875em;
           grid-template-columns: 21.25em 4.125em 5.65em;
           grid-template-rows: 0.75em 1.125em 1.125em 1.125em 1.125em 1.375em;
-          font-size: clamp(8px, 2.5vw, 24px);
+          font-size: clamp(6px, calc((100cqw - 96px) / 33.25), 24px);
           margin: auto;
           padding: 0.25em;
           width: 33.25em;
           height: 9em;
         }
 
-        :is(.dark) .interactive-keyboard-wrapper .ikb-keyboard {
+        :is(.dark, [data-theme="dark"]) .interactive-keyboard-wrapper .ikb-keyboard {
            background-image: linear-gradient(135deg, #1b1b1e, #070708);
            box-shadow:
              0 2em 4em -1em rgba(0,0,0,0.6),
@@ -741,7 +741,7 @@ function InteractiveKeyboardDemo() {
   const handleKeyPress = (key) => {
     setLastKeyPressed(key);
   };
-  return /* @__PURE__ */ jsx2("div", { className: "w-full min-h-[500px] flex flex-col items-center justify-center p-8 rounded-xl overflow-visible relative", children: /* @__PURE__ */ jsx2("div", { className: "w-full pb-8 -mx-8 px-8 flex justify-center items-start", children: /* @__PURE__ */ jsx2(InteractiveKeyboard, { onKeyClick: handleKeyPress, onKeyPress: handleKeyPress }) }) });
+  return /* @__PURE__ */ jsx2("div", { className: "w-full min-h-[240px] h-full flex flex-col items-center justify-center p-8 rounded-xl overflow-visible relative", children: /* @__PURE__ */ jsx2("div", { className: "w-full pb-8 -mx-8 px-8 flex justify-center items-start", children: /* @__PURE__ */ jsx2(InteractiveKeyboard, { onKeyClick: handleKeyPress, onKeyPress: handleKeyPress }) }) });
 }
 
 // entry.jsx

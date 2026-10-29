@@ -2,7 +2,7 @@ import {chromium} from "playwright";
 import assert from "node:assert/strict";
 import fs from "node:fs/promises";
 import {catalog} from "../src/catalog.js";
-const base=process.env.PREVIEW_URL || "http://127.0.0.1:5174";
+const base=process.env.PREVIEW_URL || "http://127.0.0.1:5173";
 const browser=await chromium.launch({channel:"chrome",headless:true});
 const results=[];
 await fs.mkdir("references/final-review",{recursive:true});
@@ -22,7 +22,7 @@ try {
   await page.goto(`${base}/#candy-button`,{waitUntil:'domcontentloaded'});
   await page.getByRole('tab',{name:'Code',exact:true}).click();
   await page.locator('.source-panel code').filter({hasText:'CandyButton'}).waitFor();
-  await check("Copy contains the real adapted implementation",async()=>{await page.locator('.source-toolbar').getByRole('button',{name:'Copy code'}).click();await page.locator('.source-toolbar').getByText('Copied',{exact:true}).waitFor();assert.equal((await page.evaluate(()=>navigator.clipboard.readText())).replace(/\r\n/g,"\n").trimEnd(),(await page.locator('.source-panel code').innerText()).trimEnd())});
+  await check("Copy contains the real adapted implementation",async()=>{await page.locator('.source-toolbar').getByRole('button',{name:'Copy code'}).click();await page.locator('.source-toolbar').getByText('Copied',{exact:true}).waitFor();assert.equal((await page.evaluate(()=>navigator.clipboard.readText())).replace(/\r\n/g,"\n").trimEnd(),(await page.locator('.source-panel code').innerText()).replace(/\r\n/g,"\n").trimEnd())});
   await check("Download includes source, license, and complete styles",async()=>{const pending=page.waitForEvent('download');await page.getByRole('button',{name:'Download source'}).click();const download=await pending;const text=await fs.readFile(await download.path(),'utf8');assert.ok(text.includes('MIT License'));assert.ok(text.includes('CandyButton'));assert.ok(text.includes('@theme'));assert.ok(!text.includes('@import "./magic-animations.css"'))});
   for(const width of [320,390,768,1440]){
     await page.setViewportSize({width,height:900});await page.goto(`${base}/#components`,{waitUntil:'domcontentloaded'});

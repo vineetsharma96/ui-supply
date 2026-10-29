@@ -33,7 +33,7 @@ var Card = React.memo(
           {
             src: card.src,
             alt: card.title,
-            className: "object-cover absolute inset-0"
+            className: "h-full w-full object-cover absolute inset-0"
           }
         ),
         /* @__PURE__ */ jsx(

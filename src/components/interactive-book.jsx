@@ -93,7 +93,7 @@ function InteractiveBook({
     {
       className: cn("relative flex items-center justify-center perspective-[2000px]", className),
       style: {
-        width: typeof width === "number" ? width * 3.5 : "100%",
+        width: "100%",
         height: typeof height === "number" ? height + 100 : "auto"
       },
       children: [
@@ -103,7 +103,7 @@ function InteractiveBook({
             className: cn(
               "relative preserve-3d"
             ),
-            style: { width, height },
+            style: { width, height, transformStyle: "preserve-3d" },
             initial: { x: 0 },
             animate: { x: isOpen ? widthNum / 2 : 0 },
             transition: { duration: BOOK_OPEN_DURATION, ease: EASING },
@@ -168,7 +168,7 @@ function InteractiveBook({
                   ]
                 }
               ),
-              /* @__PURE__ */ jsxs("div", { className: "absolute inset-0 w-full h-full z-0", style: { transformStyle: "preserve-3d" }, children: [
+              /* @__PURE__ */ jsxs("div", { className: "absolute inset-0 w-full h-full z-0", style: { transformStyle: "preserve-3d", visibility: isOpen ? "visible" : "hidden" }, children: [
                 pages.map((page, index) => {
                   const isFlipped = index <= currentPageIndex;
                   return /* @__PURE__ */ jsxs(
@@ -189,7 +189,7 @@ function InteractiveBook({
                         /* @__PURE__ */ jsxs(
                           "div",
                           {
-                            className: "absolute inset-0 w-full h-full backface-hidden p-8 flex flex-col bg-[#fdfbf7] cursor-pointer hover:bg-[#fcfaf5] transition-colors",
+                            className: "absolute inset-0 w-full h-full backface-hidden overflow-auto p-4 sm:p-8 flex flex-col bg-[#fdfbf7] cursor-pointer hover:bg-[#fcfaf5] transition-colors",
                             style: { transform: "translateZ(0.5px)" },
                             onClick: (e) => {
                               e.stopPropagation();
@@ -262,6 +262,7 @@ function InteractiveBook({
             animate: { opacity: 1, scale: 1 },
             exit: { opacity: 0, scale: 0.8 },
             onClick: handleCloseBook,
+            "aria-label": "Close book",
             className: "absolute top-8 right-8 p-2 rounded-full bg-white/50 dark:bg-neutral-800/50 hover:bg-white dark:hover:bg-neutral-800 border border-transparent hover:border-neutral-200 dark:hover:border-neutral-700 backdrop-blur-sm text-neutral-800 dark:text-neutral-100 z-[1000] transition-all hover:scale-110 shadow-sm hover:shadow-xl",
             children: /* @__PURE__ */ jsx(X, { size: 24 })
           }
@@ -288,6 +289,9 @@ import React2 from "react";
 // registry:components/docs/interactive-book.tsx
 import { jsx as jsx2, jsxs as jsxs2 } from "react/jsx-runtime";
 function InteractiveBookDemo() {
+  const [viewportWidth, setViewportWidth] = useState(() => typeof window === "undefined" ? 840 : window.innerWidth);
+  useEffect(() => { const resize = () => setViewportWidth(window.innerWidth); window.addEventListener("resize", resize); return () => window.removeEventListener("resize", resize); }, []);
+  const pageWidth = Math.min(280, Math.max(120, (viewportWidth - 48) / 2));
   const pages = [
     {
       title: "Chapter 1: The Beginning",
@@ -343,12 +347,14 @@ function InteractiveBookDemo() {
       pageNumber: 6
     }
   ];
-  return /* @__PURE__ */ jsx2("div", { className: "relative w-full h-[600px] flex items-center justify-center bg-gray-100 dark:bg-neutral-900 border rounded-lg", children: /* @__PURE__ */ jsx2(
+  return /* @__PURE__ */ jsx2("div", { className: "relative w-full h-full min-h-[320px] flex items-center justify-center bg-gray-100 dark:bg-neutral-900 border rounded-lg", children: /* @__PURE__ */ jsx2(
     InteractiveBook,
     {
       coverImage: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=1974&auto=format&fit=crop",
       bookTitle: "The Design of Everyday Things",
       bookAuthor: "Don Norman",
+      width: pageWidth,
+      height: Math.round(pageWidth * 1.4),
       pages
     }
   ) });

@@ -40,8 +40,7 @@ var ParallaxScroll = ({
       children: /* @__PURE__ */ jsxs(
         "div",
         {
-          className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start  max-w-5xl mx-auto gap-10 py-40 px-10",
-          ref: gridRef,
+          className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start max-w-5xl mx-auto gap-10 py-8 md:py-16 px-6 md:px-10",
           children: [
             /* @__PURE__ */ jsx("div", { className: "grid gap-10", children: firstPart.map((el, idx) => /* @__PURE__ */ jsx(
               motion.div,

@@ -139,7 +139,7 @@ import React2 from "react";
 // registry:components/text-hover-effect-demo.tsx
 import { jsx as jsx2 } from "react/jsx-runtime";
 function TextHoverEffectDemo() {
-  return /* @__PURE__ */ jsx2("div", { className: "h-[40rem] flex items-center justify-center", children: /* @__PURE__ */ jsx2(TextHoverEffect, { text: "ACET" }) });
+  return /* @__PURE__ */ jsx2("div", { className: "h-full min-h-60 w-full flex items-center justify-center", children: /* @__PURE__ */ jsx2(TextHoverEffect, { text: "ACET" }) });
 }
 
 // entry.jsx

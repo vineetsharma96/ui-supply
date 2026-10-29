@@ -70,7 +70,7 @@ function AnimatedRays({
         #5eead4 25%,
         #60a5fa 30%
     )`;
-  return /* @__PURE__ */ jsxs("section", { className: cn("relative w-full h-full overflow-hidden", className), children: [
+  return /* @__PURE__ */ jsxs("section", { className: cn("relative w-full h-full overflow-hidden", className), style: { "--stripe-color": isDark ? "#000000" : "#ffffff" }, children: [
     /* @__PURE__ */ jsx(
       "div",
       {

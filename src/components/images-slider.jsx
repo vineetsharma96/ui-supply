@@ -21,8 +21,6 @@ var ImagesSlider = ({
   direction = "up"
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [loading, setLoading] = useState(false);
-  const [loadedImages, setLoadedImages] = useState([]);
   const handleNext = () => {
     setCurrentIndex(
       (prevIndex) => prevIndex + 1 === images.length ? 0 : prevIndex + 1
@@ -32,24 +30,6 @@ var ImagesSlider = ({
     setCurrentIndex(
       (prevIndex) => prevIndex - 1 < 0 ? images.length - 1 : prevIndex - 1
     );
-  };
-  useEffect(() => {
-    loadImages();
-  }, []);
-  const loadImages = () => {
-    setLoading(true);
-    const loadPromises = images.map((image) => {
-      return new Promise((resolve, reject) => {
-        const img = new Image();
-        img.src = image;
-        img.onload = () => resolve(image);
-        img.onerror = reject;
-      });
-    });
-    Promise.all(loadPromises).then((loadedImages2) => {
-      setLoadedImages(loadedImages2);
-      setLoading(false);
-    }).catch((error) => console.error("Failed to load images", error));
   };
   useEffect(() => {
     const handleKeyDown = (event) => {
@@ -101,7 +81,6 @@ var ImagesSlider = ({
       }
     }
   };
-  const areImagesLoaded = loadedImages.length > 0;
   return /* @__PURE__ */ jsxs(
     "div",
     {
@@ -113,17 +92,18 @@ var ImagesSlider = ({
         perspective: "1000px"
       },
       children: [
-        areImagesLoaded && children,
-        areImagesLoaded && overlay && /* @__PURE__ */ jsx(
+        children,
+        overlay && /* @__PURE__ */ jsx(
           "div",
           {
             className: cn("absolute inset-0 bg-black/60 z-40", overlayClassName)
           }
         ),
-        areImagesLoaded && /* @__PURE__ */ jsx(AnimatePresence, { children: /* @__PURE__ */ jsx(
+        /* @__PURE__ */ jsx(AnimatePresence, { children: /* @__PURE__ */ jsx(
           motion.img,
           {
-            src: loadedImages[currentIndex],
+            src: images[currentIndex],
+            alt: "Slideshow landscape",
             initial: "initial",
             animate: "visible",
             exit: direction === "up" ? "upExit" : "downExit",

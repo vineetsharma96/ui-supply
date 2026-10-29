@@ -92,6 +92,14 @@ function TypingKeyboard({
   const kbRef = useRef(null);
   const screenRef = useRef(null);
   useEffect(() => {
+    const main = mainRef.current;
+    const parent = main?.parentElement;
+    if (!parent) return;
+    const resize = () => main.style.setProperty("--tk-scale", Math.min(scale, (parent.clientWidth - 24) / 800, (parent.clientHeight - 24) / 600));
+    const observer = new ResizeObserver(resize); observer.observe(parent); resize();
+    return () => observer.disconnect();
+  }, [scale]);
+  useEffect(() => {
     const kb = kbRef.current;
     const screen = screenRef.current;
     if (!kb || !screen) return;
@@ -138,15 +146,15 @@ function TypingKeyboard({
         .tk-container * { transform-style: preserve-3d; }
         .tk-container {
           width: 100%; height: 100%;
-          display: flex; justify-content: center; align-items: center;
+          display: flex; justify-content: center; align-items: center; overflow: hidden;
           font-family: sans-serif; font-weight: bolder;
           color: rgba(255,255,251,0.7);
           text-transform: uppercase; letter-spacing: 2px;
         }
         .tk-main {
-          width: 800px; height: 600px;
+          width: 800px; height: 600px; flex-shrink: 0;
           position: relative; cursor: pointer;
-          transform: scale(${scale});
+          transform: scale(var(--tk-scale, ${scale}));
           transform-origin: center center;
         }
         .tk-flex { display: flex; justify-content: center; align-items: center; }
@@ -317,7 +325,7 @@ import React2 from "react";
 // registry:components/docs/typing-keyboard-demo.tsx
 import { jsx as jsx2 } from "react/jsx-runtime";
 function TypingKeyboardDemo() {
-  return /* @__PURE__ */ jsx2("div", { className: "flex w-full h-[500px] items-center justify-center", children: /* @__PURE__ */ jsx2(
+  return /* @__PURE__ */ jsx2("div", { className: "flex w-full h-full min-h-[240px] items-center justify-center", children: /* @__PURE__ */ jsx2(
     TypingKeyboard,
     {
       autoTypeText: "Draco. Fast, private, and beautiful web browser. Built with love.",

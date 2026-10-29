@@ -211,22 +211,22 @@ background-position: bottom center;
 
 @keyframes pulse {
 0%, 100% {
-boxShadow: 0 0 0 0 var(--pulse-color, oklch(from var(--bg) l c h / 0.5));
+box-shadow: 0 0 0 0 var(--pulse-color, oklch(from var(--bg) l c h / 0.5));
 }
 
 50% {
-boxShadow: 0 0 0 var(--distance) var(--pulse-color, oklch(from var(--bg) l c h / 0.5));
+box-shadow: 0 0 0 var(--distance) var(--pulse-color, oklch(from var(--bg) l c h / 0.5));
 }
 
 }
 
 @keyframes pulse-ripple {
 0% {
-boxShadow: 0 0 0 0 oklch(from var(--pulse-color, var(--bg)) l c h / 1);
+box-shadow: 0 0 0 0 oklch(from var(--pulse-color, var(--bg)) l c h / 1);
 }
 
 100% {
-boxShadow: 0 0 0 var(--distance) oklch(from var(--pulse-color, var(--bg)) l c h / 0);
+box-shadow: 0 0 0 var(--distance) oklch(from var(--pulse-color, var(--bg)) l c h / 0);
 }
 
 }

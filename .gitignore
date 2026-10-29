@@ -21,6 +21,7 @@ references/*.txt
 references/import-cache/
 references/skiper-previews/*.txt
 references/component-checks/
+references/preview-health/
 references/component-check-results.json
 references/vengeance-*.tsx
 references/vengeance-*.ts

@@ -718,6 +718,7 @@ button {
   gap: 6px;
   align-items: center;
 }
+.preview-tools a.icon-button { display: inline-flex; align-items: center; justify-content: center; }
 .detail-stage {
   position: relative;
   margin-top: 17px;
@@ -733,7 +734,7 @@ button {
 .demo-viewport {
   width: 100%;
   max-width: 840px;
-  height: 340px;
+  height: clamp(360px, 65svh, 640px);
   transition: max-width 0.35s;
   min-width: 0;
 }
@@ -1279,7 +1280,7 @@ button {
     min-height: 370px;
   }
   .demo-viewport {
-    height: 300px;
+    height: clamp(360px, 65svh, 560px);
   }
   .demo-viewport .ff-reveal-sticky {
     height: 300px;

@@ -31,4 +31,6 @@ node scripts/audit-library.mjs
 node scripts/verify-components.mjs
 ```
 
-Preview checks use the development server; set `PREVIEW_URL` to check another server. `scripts/verify-interactions.mjs` checks navigation, themes, copy/download, responsive widths, and representative interactions. Research scripts and audit data are in `scripts/` and `references/`.
+Preview checks use a running server; set `PREVIEW_URL` to check another server. For a complete sweep, build first and run `npm run preview`, then run `node scripts/check-preview-health.mjs` with `PREVIEW_URL` pointing to that server. It captures every entry at desktop/dark and mobile/light sizes, checks runtime errors, image failures, and horizontal overflow, and saves local screenshots under `references/preview-health/`. Set `AUDIT_PHASE` to name a capture run; pass `--retry` to retry incomplete captures. `node scripts/render-preview-sheets.mjs <phase>` makes contact sheets for visual inspection.
+
+`scripts/verify-interactions.mjs` checks navigation, themes, copy/download, responsive widths, and representative interactions. `scripts/verify-preview-repairs.mjs` checks the repaired preview layouts and missing visuals, including image-host failure behavior. The detail toolbar also offers **Open full preview** for larger scroll demos. Research scripts and audit data are in `scripts/` and `references/`.
